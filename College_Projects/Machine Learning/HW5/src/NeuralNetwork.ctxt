@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=NeuralNetwork
+comment1.params=d\ w
+comment1.target=double[][]\ L1sum(double[][],\ double[][])
+comment2.params=net
+comment2.target=double[][]\ L2activation(double[][])
+numComments=3
