@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=PJ1
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=filename\ text
+comment2.target=void\ saveFile(java.lang.String,\ java.lang.String)
+comment3.params=data
+comment3.target=java.lang.String\ dataToString(double[][])
+comment4.params=data
+comment4.target=java.lang.String\ dataToString(double[])
+comment5.params=str
+comment5.target=java.lang.String\ stringMatrixToString(java.lang.String[])
+comment6.params=title\ results\ eval
+comment6.target=java.lang.String\ confusionMatrix(java.lang.String,\ java.lang.String[],\ java.lang.String[])
+numComments=7
