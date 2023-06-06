@@ -18,7 +18,7 @@ ORDER:
 
 git status: check to see if anything has been modified
 git add .: add all files to staging area
-git commit: add all files to local repo
+git commit -m "commit message": add all files to local repo
 git status: check status again to ensure all files were added
 git push -u origin main: push all files to remote repo main branch
 
