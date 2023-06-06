@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=BasicGui()
+comment0.text=Constructor\ for\ the\ GUI
+comment1.params=
+comment1.target=void\ launchFrame()
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3
