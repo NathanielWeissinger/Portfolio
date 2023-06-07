@@ -1,0 +1,62 @@
+[
+  {
+    "ID": "1",
+    "FirstName": "Nathaniel",
+    "LastName": "Weissinger",
+    "Password": "secret",
+    "SSN": "1234",
+    "Gender": "Male",
+    "Role": "Facilitator",
+    "Rank": "",
+    "Unit": "",
+    "Job": "",
+    "Status": "Active",
+    "FullName": "Nathaniel Weissinger",
+    "NameAndRank": " Weissinger"
+  },
+  {
+    "ID": "2",
+    "FirstName": "Nathaniel",
+    "LastName": "W",
+    "Password": "secret",
+    "SSN": "1234",
+    "Gender": "Male",
+    "Role": "Player",
+    "Rank": "",
+    "Unit": "",
+    "Job": "",
+    "Status": "Active",
+    "FullName": "Nathaniel W",
+    "NameAndRank": " W"
+  },
+  {
+    "ID": "3",
+    "FirstName": "Nathaniel",
+    "LastName": "Weiss",
+    "Password": "secret",
+    "SSN": "1234",
+    "Gender": "Male",
+    "Role": "Observer",
+    "Rank": "",
+    "Unit": "",
+    "Job": "",
+    "Status": "Active",
+    "FullName": "Nathaniel Weiss",
+    "NameAndRank": " Weiss"
+  },
+  {
+    "ID": "5",
+    "FirstName": "b",
+    "LastName": "b",
+    "Password": "12345",
+    "SSN": "1234",
+    "Gender": "Male",
+    "Role": "Player",
+    "Rank": "",
+    "Unit": "",
+    "Job": "",
+    "Status": "Active",
+    "FullName": "b b",
+    "NameAndRank": " b"
+  }
+]

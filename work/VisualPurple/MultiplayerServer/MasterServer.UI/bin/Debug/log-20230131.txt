@@ -1,0 +1,81 @@
+2023-01-31 10:39:49.399 -07:00 [INF] Waiting for a connection...
+2023-01-31 10:40:01.467 -07:00 [INF] Client #1 Accepted!
+2023-01-31 10:40:01.498 -07:00 [INF] Client #2 Accepted!
+2023-01-31 10:40:01.572 -07:00 [INF] ServerConnect id 1 type 2 cname RJ 4.0 role Game version 1
+2023-01-31 10:40:01.602 -07:00 [INF] ServerConnect id 2 type 1 cname Heritage role Lobby version 1
+2023-01-31 10:40:55.484 -07:00 [ERR] StartListening Error: A blocking operation was interrupted by a call to WSACancelBlockingCall
+System.Net.Sockets.SocketException (0x80004005): A blocking operation was interrupted by a call to WSACancelBlockingCall
+   at System.Net.Sockets.Socket.Accept()
+   at System.Net.Sockets.TcpListener.AcceptTcpClient()
+   at MasterServer.Core.SynchronousSocketListener.StartListening(Int32 InPort, LogMessageEventHandler InCallback) in D:\VP\MasterServer\Code Review\MasterServer.Core\Networking\SynchronousSocketListener.cs:line 53
+2023-01-31 10:40:55.486 -07:00 [INF] Server started...
+2023-01-31 10:40:55.565 -07:00 [INF] Server stopped...
+2023-01-31 10:41:01.821 -07:00 [INF] Waiting for a connection...
+2023-01-31 10:41:04.886 -07:00 [INF] Client #1 Accepted!
+2023-01-31 10:41:04.991 -07:00 [INF] ServerConnect id 1 type 2 cname RJ 4.0 role Game version 1
+2023-01-31 10:41:05.826 -07:00 [INF] Client #2 Accepted!
+2023-01-31 10:41:05.929 -07:00 [INF] ServerConnect id 2 type 1 cname Heritage role Lobby version 1
+2023-01-31 10:42:02.819 -07:00 [INF] Waiting for a connection...
+2023-01-31 10:42:13.260 -07:00 [INF] Client #1 Accepted!
+2023-01-31 10:42:13.365 -07:00 [INF] ServerConnect id 1 type 2 cname RJ 4.0 role Game version 1
+2023-01-31 10:43:40.748 -07:00 [INF] Waiting for a connection...
+2023-01-31 10:43:42.594 -07:00 [ERR] StartListening Error: A blocking operation was interrupted by a call to WSACancelBlockingCall
+System.Net.Sockets.SocketException (0x80004005): A blocking operation was interrupted by a call to WSACancelBlockingCall
+   at System.Net.Sockets.Socket.Accept()
+   at System.Net.Sockets.TcpListener.AcceptTcpClient()
+   at MasterServer.Core.SynchronousSocketListener.StartListening(Int32 InPort, LogMessageEventHandler InCallback) in D:\VP\MasterServer\Code Review\MasterServer.Core\Networking\SynchronousSocketListener.cs:line 53
+2023-01-31 10:43:42.598 -07:00 [INF] Server started...
+2023-01-31 10:43:42.680 -07:00 [INF] Server stopped...
+2023-01-31 10:44:44.954 -07:00 [INF] Waiting for a connection...
+2023-01-31 10:44:48.189 -07:00 [ERR] StartListening Error: A blocking operation was interrupted by a call to WSACancelBlockingCall
+System.Net.Sockets.SocketException (0x80004005): A blocking operation was interrupted by a call to WSACancelBlockingCall
+   at System.Net.Sockets.Socket.Accept()
+   at System.Net.Sockets.TcpListener.AcceptTcpClient()
+   at MasterServer.Core.SynchronousSocketListener.StartListening(Int32 InPort, LogMessageEventHandler InCallback) in D:\VP\MasterServer\Code Review\MasterServer.Core\Networking\SynchronousSocketListener.cs:line 53
+2023-01-31 10:44:48.191 -07:00 [INF] Server started...
+2023-01-31 10:44:48.276 -07:00 [INF] Server stopped...
+2023-01-31 10:47:41.739 -07:00 [INF] Waiting for a connection...
+2023-01-31 10:47:43.528 -07:00 [ERR] StartListening Error: A blocking operation was interrupted by a call to WSACancelBlockingCall
+System.Net.Sockets.SocketException (0x80004005): A blocking operation was interrupted by a call to WSACancelBlockingCall
+   at System.Net.Sockets.Socket.Accept()
+   at System.Net.Sockets.TcpListener.AcceptTcpClient()
+   at MasterServer.Core.SynchronousSocketListener.StartListening(Int32 InPort, LogMessageEventHandler InCallback) in D:\VP\MasterServer\Code Review\MasterServer.Core\Networking\SynchronousSocketListener.cs:line 53
+2023-01-31 10:47:43.530 -07:00 [INF] Server started...
+2023-01-31 10:47:43.578 -07:00 [INF] Server stopped...
+2023-01-31 11:13:39.848 -07:00 [INF] Waiting for a connection...
+2023-01-31 11:13:41.035 -07:00 [ERR] StartListening Error: A blocking operation was interrupted by a call to WSACancelBlockingCall
+System.Net.Sockets.SocketException (0x80004005): A blocking operation was interrupted by a call to WSACancelBlockingCall
+   at System.Net.Sockets.Socket.Accept()
+   at System.Net.Sockets.TcpListener.AcceptTcpClient()
+   at MasterServer.Core.SynchronousSocketListener.StartListening(Int32 InPort, LogMessageEventHandler InCallback) in D:\VP\MasterServer\Code Review\MasterServer.Core\Networking\SynchronousSocketListener.cs:line 53
+2023-01-31 11:13:41.037 -07:00 [INF] Server started...
+2023-01-31 11:13:41.088 -07:00 [INF] Server stopped...
+2023-01-31 11:37:22.967 -07:00 [INF] Waiting for a connection...
+2023-01-31 11:37:26.962 -07:00 [ERR] StartListening Error: A blocking operation was interrupted by a call to WSACancelBlockingCall
+System.Net.Sockets.SocketException (0x80004005): A blocking operation was interrupted by a call to WSACancelBlockingCall
+   at System.Net.Sockets.Socket.Accept()
+   at System.Net.Sockets.TcpListener.AcceptTcpClient()
+   at MasterServer.Core.SynchronousSocketListener.StartListening(Int32 InPort, LogMessageEventHandler InCallback) in D:\VP\MasterServer\Code Review\MasterServer.Core\Networking\SynchronousSocketListener.cs:line 53
+2023-01-31 11:37:26.964 -07:00 [INF] Server started...
+2023-01-31 11:37:27.024 -07:00 [INF] Server stopped...
+2023-01-31 14:03:25.549 -07:00 [INF] Waiting for a connection...
+2023-01-31 14:03:25.918 -07:00 [INF] Client #1 Accepted!
+2023-01-31 14:03:31.269 -07:00 [INF] Client #2 Accepted!
+2023-01-31 14:03:31.373 -07:00 [INF] ServerConnect id 2 type 2 cname RJ 4.0 role Game version 1
+2023-01-31 14:03:32.646 -07:00 [INF] Client #3 Accepted!
+2023-01-31 14:03:32.749 -07:00 [INF] ServerConnect id 3 type 1 cname Heritage role Lobby version 1
+2023-01-31 14:03:41.859 -07:00 [INF] LogIn client id 1 playername Nathaniel Weissinger netname KC46Pegasus-792A5319
+2023-01-31 14:03:41.860 -07:00 [INF] Player found 1
+2023-01-31 14:03:43.869 -07:00 [INF] Search lobby 1
+2023-01-31 14:03:51.886 -07:00 [INF] Search lobby 1
+2023-01-31 14:03:52.788 -07:00 [INF] Search lobby 1
+2023-01-31 14:03:53.089 -07:00 [INF] Search lobby 1
+2023-01-31 14:03:53.190 -07:00 [INF] Search lobby 1
+2023-01-31 14:50:00.063 -07:00 [INF] Waiting for a connection...
+2023-01-31 14:50:01.190 -07:00 [ERR] StartListening Error: A blocking operation was interrupted by a call to WSACancelBlockingCall
+System.Net.Sockets.SocketException (0x80004005): A blocking operation was interrupted by a call to WSACancelBlockingCall
+   at System.Net.Sockets.Socket.Accept()
+   at System.Net.Sockets.TcpListener.AcceptTcpClient()
+   at MasterServer.Core.SynchronousSocketListener.StartListening(Int32 InPort, LogMessageEventHandler InCallback) in D:\VP\MasterServer\Code Review\MasterServer.Core\Networking\SynchronousSocketListener.cs:line 53
+2023-01-31 14:50:01.192 -07:00 [INF] Server started...
+2023-01-31 14:50:01.279 -07:00 [INF] Server stopped...

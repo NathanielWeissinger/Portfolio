@@ -1,0 +1,190 @@
+﻿<local:CustomWindow x:Class="MasterServer.UI.Views.ActivePlayer"
+                    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                    xmlns:md="https://github.com/fantasticfiasco/mvvm-dialogs"
+                    xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+                    xmlns:local="clr-namespace:MasterServer.UI.Views" 
+                    xmlns:custom="clr-namespace:MasterServer.UI.CustomControls"
+                    xmlns:vm="clr-namespace:MasterServer.UI.ViewModels" 
+                    xmlns:converters="clr-namespace:MasterServer.UI.Converters"
+                    mc:Ignorable="d"
+                    md:DialogServiceViews.IsRegistered="True"
+                    Height="300" 
+                    Width="400"
+                    Background="LightGray"
+                    ClientIDText="{Binding ClientID}"
+                    Title="{Binding PlayerName}"
+                    d:DataContext="{d:DesignInstance Type=vm:ActivePlayerViewModel, IsDesignTimeCreatable=False}"
+                    x:Name="ActivePlayerWindow">
+    <mah:MetroWindow.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../MasterServerResourceDictionary.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <converters:ToUpperValueConverter x:Key="ToUpperValueConverter"/>
+        </ResourceDictionary>
+    </mah:MetroWindow.Resources>
+    <mah:MetroWindow.TitleTemplate>
+        <DataTemplate>
+            <Grid VerticalAlignment="Stretch">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0"
+                           Text="{Binding RelativeSource={RelativeSource AncestorType={x:Type local:CustomWindow}}, Path=Title, Converter={StaticResource ToUpperValueConverter}}"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Center"
+                           FontFamily="{DynamicResource MahApps.Fonts.Family.Window.Title}"
+                           FontSize="{DynamicResource MahApps.Font.Size.Window.Title}"
+                           Padding="5 0"
+                           Margin="0 0 0 2"/>
+                <Border BorderBrush="Black"
+                        BorderThickness="1"
+                        CornerRadius="5"
+                        Grid.Column="1"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Right"
+                        Height="20">
+                    <TextBlock Text="{Binding RelativeSource={RelativeSource AncestorType={x:Type local:CustomWindow}}, Path=ClientIDText}"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"
+                               FontFamily="{DynamicResource MahApps.Fonts.Family.Window.Title}"
+                               FontSize="{DynamicResource MahApps.Font.Size.Window.Title}"
+                               Padding="15 5"
+                               Margin="0 0 0 2"
+                               Foreground="Black"/>
+                </Border>
+            </Grid>
+        </DataTemplate>
+    </mah:MetroWindow.TitleTemplate>
+    <Grid>
+        <Grid.Resources>
+            <Style TargetType="TextBlock">
+                <Setter Property="FontSize"
+                    Value="14"/>
+            </Style>
+        </Grid.Resources>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Column="0"
+              Grid.Row="0"
+              Margin="20,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0"
+                       Grid.Column="0"
+                       Text="Player ID:"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Left"/>
+            <Label Grid.Row="0"
+                   Grid.Column="1"
+                   x:Name="PlayerID"
+                   Content="{Binding PlayerID}"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"/>
+
+            <TextBlock Grid.Row="1"
+                       Grid.Column="0"
+                       Text="Current Server:"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Left"/>
+            <Label Grid.Row="1"
+                   Grid.Column="1"
+                   x:Name="CurrentServer"
+                   Content="{Binding CurrentServer}"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"/>
+
+            <TextBlock Grid.Row="2"
+                       Grid.Column="0"
+                       Text="Current Lobby:"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Left"/>
+            <Label Grid.Row="2"
+                   Grid.Column="1"
+                   x:Name="CurrentLobby"
+                   Content="{Binding CurrentLobby}"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"/>
+
+            <TextBlock Grid.Row="3"
+                       Grid.Column="0"
+                       Text="Status:"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Left"/>
+            <custom:StatusDisplayControl Grid.Row="3"
+                                         Grid.Column="1"
+                                         HorizontalAlignment="Right"
+                                         ActiveStatus="{Binding Status}"/>
+
+            <TextBlock Grid.Row="4"
+                       Grid.Column="0"
+                       Text="Facilitator?:"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Left"/>
+            <custom:FacilitatorDisplayWidgetControl Grid.Row="4"
+                                         Grid.Column="1"
+                                         HorizontalAlignment="Right"
+                                         FacilitatorStatus="{Binding IsFacilitator}"/>
+        </Grid>
+
+        <StackPanel Grid.Row="1"
+                    Grid.Column="0"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Right">
+            <Button x:Name="curLogBtn"
+                    Content="Current Log"
+                    Margin="5,10"
+                    Padding="10,0"
+                    Background="Gray"
+                    BorderBrush="Gray"
+                    Foreground="White"
+                    mah:ControlsHelper.ContentCharacterCasing="Normal"
+                    FontWeight="Normal"
+                    FontSize="14"
+                    Command="{Binding ShowPlayerLogCommand}"
+                    CommandParameter="{Binding PlayerID}"/>
+            <Button x:Name="editBtn"
+                    Content="Edit"
+                    Margin="5,10"
+                    Padding="25,0"
+                    Background="#007FFF"
+                    BorderBrush="#007FFF"
+                    Foreground="White"
+                    mah:ControlsHelper.ContentCharacterCasing="Normal"
+                    FontWeight="Normal"
+                    FontSize="14"
+                    Command="{Binding ShowEditPlayerCommand}"
+                    CommandParameter="{Binding PlayerID}"/>
+            <Button x:Name="closeBtn"
+                    Content="Close"
+                    Margin="5,10"
+                    Padding="25,0"
+                    BorderBrush="Black"
+                    mah:ControlsHelper.ContentCharacterCasing="Normal"
+                    FontWeight="Normal"
+                    FontSize="14"
+                    Command="{Binding CloseWindowCommand}"
+                    CommandParameter="{Binding ElementName=ActivePlayerWindow}"/>
+        </StackPanel>
+    </Grid>
+</local:CustomWindow>

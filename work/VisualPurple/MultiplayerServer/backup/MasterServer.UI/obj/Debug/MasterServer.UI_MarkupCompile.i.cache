@@ -1,0 +1,20 @@
+﻿MasterServer.UI
+
+
+winexe
+C#
+.cs
+D:\VP\MasterServer\Code Review\MasterServer.UI\obj\Debug\
+MasterServer.UI
+none
+false
+DEBUG;TRACE
+D:\VP\MasterServer\Code Review\MasterServer.UI\App.xaml
+22-1088609147
+
+49-375316253
+70-1023786031
+CustomControls\ConfigurationButtonControl.xaml;CustomControls\DisplayNumberInfoControl.xaml;CustomControls\DisplayStringInfoControl.xaml;CustomControls\FacilitatorDisplayWidgetControl.xaml;CustomControls\ImportStatusControl.xaml;CustomControls\MenuControl.xaml;CustomControls\NumberDisplayControl.xaml;CustomControls\SearchBarControl.xaml;CustomControls\ServerStatusBarControl.xaml;CustomControls\StatusDisplayControl.xaml;CustomControls\StatusModalControl.xaml;MainWindow.xaml;MasterServerResourceDictionary.xaml;TabItemStyleResourceDictionary.xaml;Views\ActivePlayer.xaml;Views\Configuration.xaml;Views\EditRegisteredPlayer.xaml;Views\Lobby.xaml;Views\Log.xaml;Views\PlayerLogs.xaml;Views\RegisteredPlayers.xaml;Views\Server.xaml;
+
+True
+

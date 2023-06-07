@@ -1,0 +1,151 @@
+﻿<UserControl x:Class="MasterServer.UI.Modals.ActivePlayerModal"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MasterServer.UI.Modals"
+             xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+             xmlns:md="https://github.com/fantasticfiasco/mvvm-dialogs"
+             md:DialogServiceViews.IsRegistered="True"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0"
+                   Grid.Column="0"
+                   Background="#0545C4"
+                   Foreground="White"
+                   Text="Player Name"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Left"
+                   MinWidth="800"
+                   Padding="25"
+                   FontSize="22"
+                   FontWeight="Bold"/>
+        <Label Grid.Row="0"
+               Grid.Column="0"
+               Content="Client ID"
+               VerticalAlignment="Center"
+               HorizontalAlignment="Right"
+               Margin="0,0,30,0"
+               Padding="15,5"
+               BorderThickness="2"
+               BorderBrush="Black"/>
+
+        <Grid Grid.Column="0"
+              Grid.Row="1"
+              Margin="20,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0"
+                       Grid.Column="0"
+                       Text="Player ID:"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Left"/>
+            <Label Grid.Row="0"
+                   Grid.Column="1"
+                   x:Name="PlayerID"
+                   Content="{Binding .}"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"/>
+
+            <TextBlock Grid.Row="1"
+                       Grid.Column="0"
+                       Text="Current Server:"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Left"/>
+            <Label Grid.Row="1"
+                   Grid.Column="1"
+                   x:Name="CurrentServer"
+                   Content="{Binding .}"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"/>
+
+            <TextBlock Grid.Row="2"
+                       Grid.Column="0"
+                       Text="Current Server:"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Left"/>
+            <Label Grid.Row="2"
+                   Grid.Column="1"
+                   x:Name="CurrentLobby"
+                   Content="{Binding .}"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"/>
+
+            <TextBlock Grid.Row="3"
+                       Grid.Column="0"
+                       Text="Status:"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Left"/>
+            <mah:Badged Grid.Row="3"
+                        Grid.Column="1"
+                        x:Name="Status"
+                        Badge="Active"
+                        BadgeBackground="Green"
+                        BadgePlacementMode="Right"
+                        Margin="0,0,30,0"
+                        BadgeMargin="10,5"/>
+
+            <TextBlock Grid.Row="4"
+                       Grid.Column="0"
+                       Text="Is Facilitator:"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Left"/>
+            <mah:Badged Grid.Row="4"
+                        Grid.Column="1"
+                        x:Name="isFacilitator"
+                        Badge="No"
+                        BadgeBackground="Red"
+                        BadgePlacementMode="Right"
+                        Margin="0,0,30,0"
+                        BadgeMargin="10,5"/>
+        </Grid>
+        
+        <StackPanel Grid.Row="2"
+                    Grid.Column="0"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Right">
+            <Button x:Name="curLogBtn"
+                    Content="Current Log"
+                    Margin="5,10"
+                    Padding="10,0"
+                    Background="Gray"
+                    BorderBrush="Gray"
+                    Foreground="White"
+                    />
+            <Button x:Name="editBtn"
+                    Content="Edit"
+                    Margin="5,10"
+                    Padding="25,0"
+                    Background="#0545C4"
+                    BorderBrush="#0545C4"
+                    Foreground="White"
+                    />
+            <Button x:Name="closeBtn"
+                    Content="Close"
+                    Margin="5,10"
+                    Padding="25,0"
+                    BorderBrush="Black"
+                    />
+        </StackPanel>
+    </Grid>
+</UserControl>

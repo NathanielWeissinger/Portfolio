@@ -1,0 +1,62 @@
+[
+  {
+    "ID": "1",
+    "FirstName": "Nathaniel",
+    "LastName": "Weissinger",
+    "Password": "827ccb0eea8a706c4c34a16891f84e7b",
+    "SSN": "1234",
+    "Gender": "Male",
+    "Role": "Player",
+    "Rank": "",
+    "Unit": "",
+    "Job": "",
+    "Status": "Active",
+    "FullName": "Nathaniel Weissinger",
+    "NameAndRank": " Weissinger"
+  },
+  {
+    "ID": "2",
+    "FirstName": "Weiss",
+    "LastName": "secret",
+    "Password": "1234",
+    "SSN": "Male",
+    "Gender": "Player",
+    "Role": "",
+    "Rank": "",
+    "Unit": "",
+    "Job": "",
+    "Status": "Active",
+    "FullName": "Weiss secret",
+    "NameAndRank": " secret"
+  },
+  {
+    "ID": "3",
+    "FirstName": "Weissinger",
+    "LastName": "secret",
+    "Password": "1234",
+    "SSN": "Male",
+    "Gender": "Player",
+    "Role": "",
+    "Rank": "",
+    "Unit": "",
+    "Job": "",
+    "Status": "Active",
+    "FullName": "Weissinger secret",
+    "NameAndRank": " secret"
+  },
+  {
+    "ID": "4",
+    "FirstName": "Nathaniel",
+    "LastName": "Weiss",
+    "Password": "827ccb0eea8a706c4c34a16891f84e7b",
+    "SSN": "1234",
+    "Gender": "Male",
+    "Role": "Player",
+    "Rank": "",
+    "Unit": "",
+    "Job": "",
+    "Status": "Active",
+    "FullName": "Nathaniel Weiss",
+    "NameAndRank": " Weiss"
+  }
+]

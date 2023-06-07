@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7EB04ED7-DC6B-4AAB-B127-77E8789B9267}"
+	ProjectSection(SolutionItems) = preProject
+		.p4ignore = .p4ignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterServer.UI", "MasterServer.UI\MasterServer.UI.csproj", "{572CD4F7-1A97-494A-A346-55092E5A83BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterServer.Core", "MasterServer.Core\MasterServer.Core.csproj", "{83AEF1A8-B0D3-4CCD-85BE-9430841DB130}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{572CD4F7-1A97-494A-A346-55092E5A83BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{572CD4F7-1A97-494A-A346-55092E5A83BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{572CD4F7-1A97-494A-A346-55092E5A83BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{572CD4F7-1A97-494A-A346-55092E5A83BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83AEF1A8-B0D3-4CCD-85BE-9430841DB130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83AEF1A8-B0D3-4CCD-85BE-9430841DB130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83AEF1A8-B0D3-4CCD-85BE-9430841DB130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83AEF1A8-B0D3-4CCD-85BE-9430841DB130}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67D5E18E-5F9E-48BA-9639-362C3171729D}
+	EndGlobalSection
+EndGlobal

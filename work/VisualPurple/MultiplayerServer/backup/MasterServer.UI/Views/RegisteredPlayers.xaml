@@ -1,0 +1,123 @@
+﻿<mah:MetroWindow x:Class="MasterServer.UI.Views.RegisteredPlayers"
+                 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                 xmlns:md="https://github.com/fantasticfiasco/mvvm-dialogs"
+                 xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"  
+                 xmlns:vm="clr-namespace:MasterServer.UI.ViewModels"
+                 xmlns:custom="clr-namespace:MasterServer.UI.CustomControls"
+                 xmlns:local="clr-namespace:MasterServer.UI.Views"
+                 mc:Ignorable="d"
+                 md:DialogServiceViews.IsRegistered="True"
+                 Title="Registered Players"
+                 Height="610" 
+                 Width="800"
+                 Loaded="RegisteredPlayerWindow_Loaded"
+                 d:DataContext="{d:DesignInstance Type=vm:RegisteredPlayersViewModel, IsDesignTimeCreatable=False}">
+    <mah:MetroWindow.Resources>
+        <ResourceDictionary Source="../MasterServerResourceDictionary.xaml" />
+
+    </mah:MetroWindow.Resources>
+    <mah:MetroWindow.Style>
+        <Style TargetType="mah:MetroWindow">
+            <Setter Property="Background" Value="LightGray"/>
+        </Style>
+    </mah:MetroWindow.Style>
+    <Grid Margin="10,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition />
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <custom:SearchBarControl x:Name="SearchBar"
+                                 Grid.Column="0"
+                                 Grid.Row="0"
+                                 Width="600"
+                                 Height="30"
+                                 HorizontalAlignment="Left"
+                                 SearchText="{Binding SearchTextString, UpdateSourceTrigger=PropertyChanged, Delay=300, Mode=TwoWay}"/>
+        <DataGrid Grid.Row="1"
+                  x:Name="registeredPlayerGrid"
+                  ItemsSource="{Binding RegisteredPlayers}"                  
+                  AlternatingRowBackground="#80CFFF"
+                  SelectionMode="Extended"
+                  AutoGenerateColumns="False"
+                  CanUserAddRows="False">
+            <DataGrid.ColumnHeaderStyle>
+                <Style TargetType="{x:Type DataGridColumnHeader}">
+                    <Setter Property="Background" Value="#007FFF"/>
+                    <Setter Property="Foreground" Value="White"/>
+                    <Setter Property="FontWeight" Value="Bold"/>
+                    <Setter Property="Padding" Value="5"/>
+                    <Setter Property="BorderBrush" Value="#006FFF"/>
+                    <Setter Property="BorderThickness" Value="1"/>
+                </Style>
+            </DataGrid.ColumnHeaderStyle>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Player ID" Binding="{Binding Id}" IsReadOnly="True" Width="2*" />
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" IsReadOnly="True" Width="3*" />
+                <DataGridTextColumn Header="Rank" Binding="{Binding Rank}" IsReadOnly="True" Width="2*" />
+                <DataGridTextColumn Header="Unit" Binding="{Binding Unit}" IsReadOnly="True" Width="*" />
+                <DataGridTextColumn Header="Job Code" Binding="{Binding JobCode}" IsReadOnly="True" Width="2*" />
+                <DataGridTextColumn Header="Facilitator?" Binding="{Binding IsFacilitator}" IsReadOnly="True" Width="2*" />
+                <DataGridTextColumn Header="Status" Binding="{Binding IsActive}" IsReadOnly="True" Width="2*" />
+                <DataGridTemplateColumn Header="Edit">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button x:Name="editPlayerViewBtn" 
+                                    Content="Edit" 
+                                    Command="{Binding Path=DataContext.EditRegisteredPlayerCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}"
+                                    CommandParameter="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=DataGrid}, Path=SelectedItem}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Button x:Name="refreshBtn"
+                Grid.Row="3"
+                HorizontalAlignment="Left"
+                Width="90"
+                Height="30"
+                Content="&#8635; Refresh"
+                FontWeight="Normal"
+                mah:ControlsHelper.ContentCharacterCasing="Normal"
+                Command="{Binding OnLoad}"/>
+
+        <StackPanel Grid.Row="3"
+                    HorizontalAlignment="Right"
+                    Orientation="Horizontal">
+            <Button Height="30"
+                    x:Name="previousBtn"
+                    VerticalAlignment="Center"
+                    Width="60"
+                    Content="Previous"
+                    mah:ControlsHelper.ContentCharacterCasing="Normal"
+                    FontWeight="Normal"
+                    Command="{Binding PaginationPreviousCommand}"
+                    Margin="1"/>
+            <ItemsControl x:Name="pageBtnWrapper" 
+                          ItemsSource="{Binding ButtonNumbers}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Horizontal"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            </ItemsControl>
+            <Button Height="30"
+                    x:Name="nextBtn"
+                    VerticalAlignment="Center"
+                    Width="60"
+                    Content="Next"
+                    mah:ControlsHelper.ContentCharacterCasing="Normal"
+                    FontWeight="Normal"
+                    Command="{Binding PaginationNextCommand}"
+                    Margin="1"/>
+        </StackPanel>
+    </Grid>
+</mah:MetroWindow>

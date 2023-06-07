@@ -1,0 +1,56 @@
+D:\VP\MasterServer\Code Review\MasterServer.Core\bin\Debug\MasterServer.Core.dll.config
+D:\VP\MasterServer\Code Review\MasterServer.Core\bin\Debug\MasterServer.Core.dll
+D:\VP\MasterServer\Code Review\MasterServer.Core\bin\Debug\MasterServer.Core.pdb
+D:\VP\MasterServer\Code Review\MasterServer.Core\bin\Debug\CommunityToolkit.Mvvm.dll
+D:\VP\MasterServer\Code Review\MasterServer.Core\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\VP\MasterServer\Code Review\MasterServer.Core\bin\Debug\Newtonsoft.Json.dll
+D:\VP\MasterServer\Code Review\MasterServer.Core\bin\Debug\Serilog.dll
+D:\VP\MasterServer\Code Review\MasterServer.Core\bin\Debug\System.Buffers.dll
+D:\VP\MasterServer\Code Review\MasterServer.Core\bin\Debug\System.ComponentModel.Annotations.dll
+D:\VP\MasterServer\Code Review\MasterServer.Core\bin\Debug\System.Memory.dll
+D:\VP\MasterServer\Code Review\MasterServer.Core\bin\Debug\System.Numerics.Vectors.dll
+D:\VP\MasterServer\Code Review\MasterServer.Core\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\VP\MasterServer\Code Review\MasterServer.Core\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\VP\MasterServer\Code Review\MasterServer.Core\bin\Debug\CommunityToolkit.Mvvm.pdb
+D:\VP\MasterServer\Code Review\MasterServer.Core\bin\Debug\CommunityToolkit.Mvvm.xml
+D:\VP\MasterServer\Code Review\MasterServer.Core\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\VP\MasterServer\Code Review\MasterServer.Core\bin\Debug\Newtonsoft.Json.xml
+D:\VP\MasterServer\Code Review\MasterServer.Core\bin\Debug\Serilog.xml
+D:\VP\MasterServer\Code Review\MasterServer.Core\bin\Debug\System.Buffers.xml
+D:\VP\MasterServer\Code Review\MasterServer.Core\bin\Debug\System.Memory.xml
+D:\VP\MasterServer\Code Review\MasterServer.Core\bin\Debug\System.Numerics.Vectors.xml
+D:\VP\MasterServer\Code Review\MasterServer.Core\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\VP\MasterServer\Code Review\MasterServer.Core\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\VP\MasterServer\Code Review\MasterServer.Core\obj\Debug\MasterServer.Core.csproj.AssemblyReference.cache
+D:\VP\MasterServer\Code Review\MasterServer.Core\obj\Debug\MasterServer.Core.csproj.CoreCompileInputs.cache
+D:\VP\MasterServer\Code Review\MasterServer.Core\obj\Debug\MasterServer.Core.csproj.CopyComplete
+D:\VP\MasterServer\Code Review\MasterServer.Core\obj\Debug\MasterServer.Core.dll
+D:\VP\MasterServer\Code Review\MasterServer.Core\obj\Debug\MasterServer.Core.pdb
+D:\Library\REPOSITORY\work\Visual Purple\Multiplayer Server Client\MasterServer.Core\bin\Debug\MasterServer.Core.dll.config
+D:\Library\REPOSITORY\work\Visual Purple\Multiplayer Server Client\MasterServer.Core\bin\Debug\MasterServer.Core.dll
+D:\Library\REPOSITORY\work\Visual Purple\Multiplayer Server Client\MasterServer.Core\bin\Debug\MasterServer.Core.pdb
+D:\Library\REPOSITORY\work\Visual Purple\Multiplayer Server Client\MasterServer.Core\bin\Debug\CommunityToolkit.Mvvm.dll
+D:\Library\REPOSITORY\work\Visual Purple\Multiplayer Server Client\MasterServer.Core\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Library\REPOSITORY\work\Visual Purple\Multiplayer Server Client\MasterServer.Core\bin\Debug\Newtonsoft.Json.dll
+D:\Library\REPOSITORY\work\Visual Purple\Multiplayer Server Client\MasterServer.Core\bin\Debug\Serilog.dll
+D:\Library\REPOSITORY\work\Visual Purple\Multiplayer Server Client\MasterServer.Core\bin\Debug\System.Buffers.dll
+D:\Library\REPOSITORY\work\Visual Purple\Multiplayer Server Client\MasterServer.Core\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Library\REPOSITORY\work\Visual Purple\Multiplayer Server Client\MasterServer.Core\bin\Debug\System.Memory.dll
+D:\Library\REPOSITORY\work\Visual Purple\Multiplayer Server Client\MasterServer.Core\bin\Debug\System.Numerics.Vectors.dll
+D:\Library\REPOSITORY\work\Visual Purple\Multiplayer Server Client\MasterServer.Core\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Library\REPOSITORY\work\Visual Purple\Multiplayer Server Client\MasterServer.Core\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Library\REPOSITORY\work\Visual Purple\Multiplayer Server Client\MasterServer.Core\bin\Debug\CommunityToolkit.Mvvm.pdb
+D:\Library\REPOSITORY\work\Visual Purple\Multiplayer Server Client\MasterServer.Core\bin\Debug\CommunityToolkit.Mvvm.xml
+D:\Library\REPOSITORY\work\Visual Purple\Multiplayer Server Client\MasterServer.Core\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Library\REPOSITORY\work\Visual Purple\Multiplayer Server Client\MasterServer.Core\bin\Debug\Newtonsoft.Json.xml
+D:\Library\REPOSITORY\work\Visual Purple\Multiplayer Server Client\MasterServer.Core\bin\Debug\Serilog.xml
+D:\Library\REPOSITORY\work\Visual Purple\Multiplayer Server Client\MasterServer.Core\bin\Debug\System.Buffers.xml
+D:\Library\REPOSITORY\work\Visual Purple\Multiplayer Server Client\MasterServer.Core\bin\Debug\System.Memory.xml
+D:\Library\REPOSITORY\work\Visual Purple\Multiplayer Server Client\MasterServer.Core\bin\Debug\System.Numerics.Vectors.xml
+D:\Library\REPOSITORY\work\Visual Purple\Multiplayer Server Client\MasterServer.Core\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Library\REPOSITORY\work\Visual Purple\Multiplayer Server Client\MasterServer.Core\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Library\REPOSITORY\work\Visual Purple\Multiplayer Server Client\MasterServer.Core\obj\Debug\MasterServer.Core.csproj.AssemblyReference.cache
+D:\Library\REPOSITORY\work\Visual Purple\Multiplayer Server Client\MasterServer.Core\obj\Debug\MasterServer.Core.csproj.CoreCompileInputs.cache
+D:\Library\REPOSITORY\work\Visual Purple\Multiplayer Server Client\MasterServer.Core\obj\Debug\MasterServer.Core.csproj.CopyComplete
+D:\Library\REPOSITORY\work\Visual Purple\Multiplayer Server Client\MasterServer.Core\obj\Debug\MasterServer.Core.dll
+D:\Library\REPOSITORY\work\Visual Purple\Multiplayer Server Client\MasterServer.Core\obj\Debug\MasterServer.Core.pdb
