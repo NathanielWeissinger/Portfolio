@@ -1,0 +1,184 @@
+Strategy: Nathaniel_Daily_LongTerm
+
+
+#
+#Heiken Ashi Candles (DAY):
+#
+def ha_period = AggregationPeriod.DAY;
+def ha_high = high(period = ha_period);
+def ha_low = low(period = ha_period);
+def prevclose = close(period = ha_period)[1];
+def prevopen = open(period = ha_period)[1];
+def ha_open = (prevopen[0] + prevclose[0]) / 2.0;
+def ha_close = (open(period = ha_period) + close(period = ha_period) + ha_high + ha_low) / 4.0;
+
+
+#
+#DAILY TIMEFRAME:
+#
+def timeFrame = GetAggregationPeriod();
+def tf;
+if (timeFrame == AggregationPeriod.DAY)
+{
+    tf = yes;
+} else {
+    tf = no;
+}
+
+
+#
+#Momentum Crossover BUY/SELL SIGNAL
+#
+input length = 12;
+def crossingTypeUP = CrossingDirection.ABOVE;
+def crossingTypeDOWN = CrossingDirection.BELOW;
+
+Assert(length > 0, "'length' must be positive: " + length);
+
+def priceM = ha_close[-3];
+def momentum = priceM - priceM[length];
+
+
+#MACD Edit and Diff < (ZeroLine+-MACDgap)
+input priceGap = 2.5; #percent loss buffer
+def entryPrice = entryPrice();
+def ep =  if IsNaN(entryPrice[1]) then ha_close else entryPrice;
+plot signalUP = Crosses(momentum, 0, crossingTypeUP) and tf and ha_close[1] < (ep + (ep * priceGap * 0.01));
+plot signalDOWN = Crosses(momentum, 0, crossingTypeDOWN) and tf and ha_close[1] > (ep - (ep * priceGap * 0.01));
+
+signalUP.SetDefaultColor(Color.GREEN);
+signalDOWN.SetDefaultColor(Color.RED);
+
+signalUP.SetPaintingStrategy(PaintingStrategy.BOOLEAN_ARROW_UP);
+signalDOWN.SetPaintingStrategy(PaintingStrategy.BOOLEAN_ARROW_DOWN);
+
+
+#
+#BUY/SELL:
+#
+input long_shares = 1;
+input short_shares = 1;
+
+AddOrder(OrderType.SELL_AUTO, signalDOWN, open[-1], short_shares, Color.CYAN, Color.CYAN);
+AddOrder(OrderType.BUY_AUTO, signalUP, open[-1], long_shares, Color.CYAN, Color.CYAN);
+
+
+
+
+
+
+
+
+
+______________________________________________________________________________________________
+Sell Order
+
+
+#
+#Heiken Ashi Candles (DAY):
+#
+def ha_period = AggregationPeriod.DAY;
+def ha_high = high(period = ha_period);
+def ha_low = low(period = ha_period);
+def prevclose = close(period = ha_period)[1];
+def prevopen = open(period = ha_period)[1];
+def ha_open = (prevopen[0] + prevclose[0]) / 2.0;
+def ha_close = (open(period = ha_period) + close(period = ha_period) + ha_high + ha_low) / 4.0;
+
+
+#
+#DAILY TIMEFRAME:
+#
+def timeFrame = GetAggregationPeriod();
+def tf;
+if (timeFrame == AggregationPeriod.DAY)
+{
+    tf = yes;
+} else {
+    tf = no;
+}
+
+
+#
+#Momentum Crossover BUY/SELL SIGNAL
+#
+input length = 12;
+def crossingTypeUP = CrossingDirection.ABOVE;
+def crossingTypeDOWN = CrossingDirection.BELOW;
+
+Assert(length > 0, "'length' must be positive: " + length);
+
+def priceM = ha_close[-3];
+def momentum = priceM - priceM[length];
+
+
+#MACD Edit and Diff < (ZeroLine+-MACDgap)
+input priceGap = 2.5; #percent loss buffer
+def entryPrice = entryPrice();
+def ep =  if IsNaN(entryPrice[1]) then ha_close else entryPrice;
+plot signalDOWN = Crosses(momentum, 0, crossingTypeDOWN) and tf and ha_close[1] > (ep - (ep * priceGap * 0.01));
+
+signalDOWN.SetDefaultColor(Color.RED);
+signalDOWN.SetPaintingStrategy(PaintingStrategy.BOOLEAN_ARROW_DOWN);
+
+
+
+
+
+
+
+
+______________________________________________________________________________________________
+Buy Order
+
+
+#
+#Heiken Ashi Candles (DAY):
+#
+def ha_period = AggregationPeriod.DAY;
+def ha_high = high(period = ha_period);
+def ha_low = low(period = ha_period);
+def prevclose = close(period = ha_period)[1];
+def prevopen = open(period = ha_period)[1];
+def ha_open = (prevopen[0] + prevclose[0]) / 2.0;
+def ha_close = (open(period = ha_period) + close(period = ha_period) + ha_high + ha_low) / 4.0;
+
+
+#
+#DAILY TIMEFRAME:
+#
+def timeFrame = GetAggregationPeriod();
+def tf;
+if (timeFrame == AggregationPeriod.DAY)
+{
+    tf = yes;
+} else {
+    tf = no;
+}
+
+
+#
+#Momentum Crossover BUY/SELL SIGNAL
+#
+input length = 12;
+def crossingTypeUP = CrossingDirection.ABOVE;
+def crossingTypeDOWN = CrossingDirection.BELOW;
+
+Assert(length > 0, "'length' must be positive: " + length);
+
+def priceM = ha_close[-3];
+def momentum = priceM - priceM[length];
+
+
+#MACD Edit and Diff < (ZeroLine+-MACDgap)
+input priceGap = 2.5; #percent loss buffer
+def entryPrice = entryPrice();
+def ep =  if IsNaN(entryPrice[1]) then ha_close else entryPrice;
+plot signalUP = Crosses(momentum, 0, crossingTypeUP) and tf and ha_close[1] < (ep + (ep * priceGap * 0.01));
+
+signalUP.SetDefaultColor(Color.GREEN);
+signalUP.SetPaintingStrategy(PaintingStrategy.BOOLEAN_ARROW_UP);
+
+
+
+
