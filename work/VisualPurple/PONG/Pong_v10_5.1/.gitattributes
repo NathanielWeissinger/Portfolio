@@ -1,0 +1,2 @@
+Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset filter=lfs diff=lfs merge=lfs -text
+Intermediate/Build/Win64/PongEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.obj filter=lfs diff=lfs merge=lfs -text
