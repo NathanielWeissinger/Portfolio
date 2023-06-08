@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Pong.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\UnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Pong\Pong_NathanielWeissinger_v10 5.1\Intermediate\Build\Win64\UnrealEditor\Development\Pong\Cpp_AdvancedFunctionLibrary.gen.cpp.obj"
+"D:\Pong\Pong_NathanielWeissinger_v10 5.1\Intermediate\Build\Win64\UnrealEditor\Development\Pong\Pong.init.gen.cpp.obj"
+"D:\Pong\Pong_NathanielWeissinger_v10 5.1\Intermediate\Build\Win64\UnrealEditor\Development\Pong\Pong.cpp.obj"
+"D:\Pong\Pong_NathanielWeissinger_v10 5.1\Intermediate\Build\Win64\UnrealEditor\Development\Pong\Cpp_AdvancedFunctionLibrary.cpp.obj"
+"..\Intermediate\Build\Win64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"D:\Pong\Pong_NathanielWeissinger_v10 5.1\Intermediate\Build\Win64\UnrealEditor\Development\Pong\UnrealEditor-Pong.lib"

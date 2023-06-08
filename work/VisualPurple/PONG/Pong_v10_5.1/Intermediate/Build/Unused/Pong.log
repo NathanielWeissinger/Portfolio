@@ -1,0 +1,195 @@
+﻿  Using bundled DotNet SDK version: 6.0.302
+  Building UnrealBuildTool with Microsoft Visual Studio Community 2022...
+C:\Users\nathaniel.weissinger\.nuget\packages\system.diagnostics.diagnosticsource\7.0.0\buildTransitive\netcoreapp2.0\System.Diagnostics.DiagnosticSource.targets(4,5): warning : System.Diagnostics.DiagnosticSource 7.0.0 doesn't support netcoreapp3.1 and has not been tested with it. Consider upgrading your TargetFramework to net6.0 or later. You may also set <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings> in the project file to ignore this warning and attempt to run in this unsupported configuration at your own risk. [C:\UE5.1\UnrealEngine\Engine\Source\Programs\Shared\EpicGames.Core\EpicGames.Core.csproj]
+C:\Users\nathaniel.weissinger\.nuget\packages\microsoft.extensions.primitives\7.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.Primitives.targets(4,5): warning : Microsoft.Extensions.Primitives 7.0.0 doesn't support netcoreapp3.1 and has not been tested with it. Consider upgrading your TargetFramework to net6.0 or later. You may also set <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings> in the project file to ignore this warning and attempt to run in this unsupported configuration at your own risk. [C:\UE5.1\UnrealEngine\Engine\Source\Programs\Shared\EpicGames.Core\EpicGames.Core.csproj]
+C:\Users\nathaniel.weissinger\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\7.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.DependencyInjection.Abstractions.targets(4,5): warning : Microsoft.Extensions.DependencyInjection.Abstractions 7.0.0 doesn't support netcoreapp3.1 and has not been tested with it. Consider upgrading your TargetFramework to net6.0 or later. You may also set <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings> in the project file to ignore this warning and attempt to run in this unsupported configuration at your own risk. [C:\UE5.1\UnrealEngine\Engine\Source\Programs\Shared\EpicGames.Core\EpicGames.Core.csproj]
+C:\Users\nathaniel.weissinger\.nuget\packages\microsoft.extensions.options\7.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.Options.targets(4,5): warning : Microsoft.Extensions.Options 7.0.0 doesn't support netcoreapp3.1 and has not been tested with it. Consider upgrading your TargetFramework to net6.0 or later. You may also set <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings> in the project file to ignore this warning and attempt to run in this unsupported configuration at your own risk. [C:\UE5.1\UnrealEngine\Engine\Source\Programs\Shared\EpicGames.Core\EpicGames.Core.csproj]
+C:\Users\nathaniel.weissinger\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.Logging.Abstractions.targets(4,5): warning : Microsoft.Extensions.Logging.Abstractions 7.0.0 doesn't support netcoreapp3.1 and has not been tested with it. Consider upgrading your TargetFramework to net6.0 or later. You may also set <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings> in the project file to ignore this warning and attempt to run in this unsupported configuration at your own risk. [C:\UE5.1\UnrealEngine\Engine\Source\Programs\Shared\EpicGames.Core\EpicGames.Core.csproj]
+C:\Users\nathaniel.weissinger\.nuget\packages\microsoft.extensions.dependencyinjection\7.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.DependencyInjection.targets(4,5): warning : Microsoft.Extensions.DependencyInjection 7.0.0 doesn't support netcoreapp3.1 and has not been tested with it. Consider upgrading your TargetFramework to net6.0 or later. You may also set <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings> in the project file to ignore this warning and attempt to run in this unsupported configuration at your own risk. [C:\UE5.1\UnrealEngine\Engine\Source\Programs\Shared\EpicGames.Core\EpicGames.Core.csproj]
+C:\Users\nathaniel.weissinger\.nuget\packages\microsoft.extensions.logging\7.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.Logging.targets(4,5): warning : Microsoft.Extensions.Logging 7.0.0 doesn't support netcoreapp3.1 and has not been tested with it. Consider upgrading your TargetFramework to net6.0 or later. You may also set <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings> in the project file to ignore this warning and attempt to run in this unsupported configuration at your own risk. [C:\UE5.1\UnrealEngine\Engine\Source\Programs\Shared\EpicGames.Core\EpicGames.Core.csproj]
+C:\Users\nathaniel.weissinger\.nuget\packages\system.diagnostics.diagnosticsource\7.0.0\buildTransitive\netcoreapp2.0\System.Diagnostics.DiagnosticSource.targets(4,5): warning : System.Diagnostics.DiagnosticSource 7.0.0 doesn't support netcoreapp3.1 and has not been tested with it. Consider upgrading your TargetFramework to net6.0 or later. You may also set <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings> in the project file to ignore this warning and attempt to run in this unsupported configuration at your own risk. [C:\UE5.1\UnrealEngine\Engine\Source\Programs\Shared\EpicGames.IoHash\EpicGames.IoHash.csproj]
+C:\Users\nathaniel.weissinger\.nuget\packages\microsoft.extensions.primitives\7.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.Primitives.targets(4,5): warning : Microsoft.Extensions.Primitives 7.0.0 doesn't support netcoreapp3.1 and has not been tested with it. Consider upgrading your TargetFramework to net6.0 or later. You may also set <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings> in the project file to ignore this warning and attempt to run in this unsupported configuration at your own risk. [C:\UE5.1\UnrealEngine\Engine\Source\Programs\Shared\EpicGames.IoHash\EpicGames.IoHash.csproj]
+C:\Users\nathaniel.weissinger\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\7.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.DependencyInjection.Abstractions.targets(4,5): warning : Microsoft.Extensions.DependencyInjection.Abstractions 7.0.0 doesn't support netcoreapp3.1 and has not been tested with it. Consider upgrading your TargetFramework to net6.0 or later. You may also set <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings> in the project file to ignore this warning and attempt to run in this unsupported configuration at your own risk. [C:\UE5.1\UnrealEngine\Engine\Source\Programs\Shared\EpicGames.IoHash\EpicGames.IoHash.csproj]
+C:\Users\nathaniel.weissinger\.nuget\packages\microsoft.extensions.options\7.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.Options.targets(4,5): warning : Microsoft.Extensions.Options 7.0.0 doesn't support netcoreapp3.1 and has not been tested with it. Consider upgrading your TargetFramework to net6.0 or later. You may also set <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings> in the project file to ignore this warning and attempt to run in this unsupported configuration at your own risk. [C:\UE5.1\UnrealEngine\Engine\Source\Programs\Shared\EpicGames.IoHash\EpicGames.IoHash.csproj]
+C:\Users\nathaniel.weissinger\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.Logging.Abstractions.targets(4,5): warning : Microsoft.Extensions.Logging.Abstractions 7.0.0 doesn't support netcoreapp3.1 and has not been tested with it. Consider upgrading your TargetFramework to net6.0 or later. You may also set <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings> in the project file to ignore this warning and attempt to run in this unsupported configuration at your own risk. [C:\UE5.1\UnrealEngine\Engine\Source\Programs\Shared\EpicGames.IoHash\EpicGames.IoHash.csproj]
+C:\Users\nathaniel.weissinger\.nuget\packages\microsoft.extensions.dependencyinjection\7.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.DependencyInjection.targets(4,5): warning : Microsoft.Extensions.DependencyInjection 7.0.0 doesn't support netcoreapp3.1 and has not been tested with it. Consider upgrading your TargetFramework to net6.0 or later. You may also set <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings> in the project file to ignore this warning and attempt to run in this unsupported configuration at your own risk. [C:\UE5.1\UnrealEngine\Engine\Source\Programs\Shared\EpicGames.IoHash\EpicGames.IoHash.csproj]
+C:\Users\nathaniel.weissinger\.nuget\packages\microsoft.extensions.logging\7.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.Logging.targets(4,5): warning : Microsoft.Extensions.Logging 7.0.0 doesn't support netcoreapp3.1 and has not been tested with it. Consider upgrading your TargetFramework to net6.0 or later. You may also set <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings> in the project file to ignore this warning and attempt to run in this unsupported configuration at your own risk. [C:\UE5.1\UnrealEngine\Engine\Source\Programs\Shared\EpicGames.IoHash\EpicGames.IoHash.csproj]
+C:\Users\nathaniel.weissinger\.nuget\packages\system.diagnostics.diagnosticsource\7.0.0\buildTransitive\netcoreapp2.0\System.Diagnostics.DiagnosticSource.targets(4,5): warning : System.Diagnostics.DiagnosticSource 7.0.0 doesn't support netcoreapp3.1 and has not been tested with it. Consider upgrading your TargetFramework to net6.0 or later. You may also set <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings> in the project file to ignore this warning and attempt to run in this unsupported configuration at your own risk. [C:\UE5.1\UnrealEngine\Engine\Source\Programs\Shared\EpicGames.Serialization\EpicGames.Serialization.csproj]
+C:\Users\nathaniel.weissinger\.nuget\packages\microsoft.extensions.primitives\7.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.Primitives.targets(4,5): warning : Microsoft.Extensions.Primitives 7.0.0 doesn't support netcoreapp3.1 and has not been tested with it. Consider upgrading your TargetFramework to net6.0 or later. You may also set <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings> in the project file to ignore this warning and attempt to run in this unsupported configuration at your own risk. [C:\UE5.1\UnrealEngine\Engine\Source\Programs\Shared\EpicGames.Serialization\EpicGames.Serialization.csproj]
+C:\Users\nathaniel.weissinger\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\7.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.DependencyInjection.Abstractions.targets(4,5): warning : Microsoft.Extensions.DependencyInjection.Abstractions 7.0.0 doesn't support netcoreapp3.1 and has not been tested with it. Consider upgrading your TargetFramework to net6.0 or later. You may also set <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings> in the project file to ignore this warning and attempt to run in this unsupported configuration at your own risk. [C:\UE5.1\UnrealEngine\Engine\Source\Programs\Shared\EpicGames.Serialization\EpicGames.Serialization.csproj]
+C:\Users\nathaniel.weissinger\.nuget\packages\microsoft.extensions.options\7.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.Options.targets(4,5): warning : Microsoft.Extensions.Options 7.0.0 doesn't support netcoreapp3.1 and has not been tested with it. Consider upgrading your TargetFramework to net6.0 or later. You may also set <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings> in the project file to ignore this warning and attempt to run in this unsupported configuration at your own risk. [C:\UE5.1\UnrealEngine\Engine\Source\Programs\Shared\EpicGames.Serialization\EpicGames.Serialization.csproj]
+C:\Users\nathaniel.weissinger\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.Logging.Abstractions.targets(4,5): warning : Microsoft.Extensions.Logging.Abstractions 7.0.0 doesn't support netcoreapp3.1 and has not been tested with it. Consider upgrading your TargetFramework to net6.0 or later. You may also set <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings> in the project file to ignore this warning and attempt to run in this unsupported configuration at your own risk. [C:\UE5.1\UnrealEngine\Engine\Source\Programs\Shared\EpicGames.Serialization\EpicGames.Serialization.csproj]
+C:\Users\nathaniel.weissinger\.nuget\packages\microsoft.extensions.dependencyinjection\7.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.DependencyInjection.targets(4,5): warning : Microsoft.Extensions.DependencyInjection 7.0.0 doesn't support netcoreapp3.1 and has not been tested with it. Consider upgrading your TargetFramework to net6.0 or later. You may also set <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings> in the project file to ignore this warning and attempt to run in this unsupported configuration at your own risk. [C:\UE5.1\UnrealEngine\Engine\Source\Programs\Shared\EpicGames.Serialization\EpicGames.Serialization.csproj]
+C:\Users\nathaniel.weissinger\.nuget\packages\microsoft.extensions.logging\7.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.Logging.targets(4,5): warning : Microsoft.Extensions.Logging 7.0.0 doesn't support netcoreapp3.1 and has not been tested with it. Consider upgrading your TargetFramework to net6.0 or later. You may also set <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings> in the project file to ignore this warning and attempt to run in this unsupported configuration at your own risk. [C:\UE5.1\UnrealEngine\Engine\Source\Programs\Shared\EpicGames.Serialization\EpicGames.Serialization.csproj]
+  Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -Target="PongEditor Win64 Development -Project=\"D:\Pong\Pong_NathanielWeissinger_v10 5.1\Pong.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild
+  Log file: C:\UE5.1\UnrealEngine\Engine\Programs\UnrealBuildTool\Log.txt
+  Building PongEditor and ShaderCompileWorker...
+  Using Visual Studio 2022 14.33.31631 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+    Executing up to 8 processes, one per physical core
+  Building 105 actions with 8 processes...
+  [1/105] Compile Module.GeometryFlowCore.cpp
+  [2/105] Compile Module.ConcertTransport.cpp
+  [3/105] Compile Module.GeometryFlowMeshProcessing.cpp
+  [4/105] Compile Module.Concert.cpp
+  [5/105] Compile Module.VRExpansionPlugin.7_of_13.cpp
+  [6/105] Compile Module.CommonInput.cpp
+  [7/105] Compile Module.VRExpansionPlugin.8_of_13.cpp
+  [8/105] Compile Module.VRExpansionPlugin.5_of_13.cpp
+  [9/105] Compile Module.VRExpansionPlugin.4_of_13.cpp
+  [10/105] Compile Module.VRExpansionPlugin.9_of_13.cpp
+  [11/105] Compile Module.StylusInput.cpp
+  [12/105] Compile Module.GeometryFlowMeshProcessingEditor.cpp
+  [13/105] Compile Module.VRExpansionPlugin.2_of_13.cpp
+  [14/105] Compile Module.ConsoleVariablesEditorRuntime.cpp
+  [15/105] Compile Module.SQLiteCore.cpp
+  [16/105] Compile Module.ConcertSyncCore.cpp
+  [17/105] Compile Module.MeshLODToolset.cpp
+  [18/105] Compile Module.ConcertSyncClient.cpp
+  [19/105] Compile Module.VRExpansionPlugin.3_of_13.cpp
+  [20/105] Compile Module.VRExpansionPlugin.1_of_13.cpp
+  [21/105] Compile SteamSharedModule.cpp
+  [22/105] Compile Module.CommonUI.cpp
+  [23/105] Compile Module.MeshConversionEngineTypes.cpp
+  [24/105] Compile Module.OculusAudio.cpp
+  [25/105] Compile Module.OpenXRExpansionPlugin.cpp
+  [26/105] Compile Module.ConcertSharedSlate.cpp
+  [27/105] Compile SQLiteEmbedded.c
+  [28/105] Compile Module.CodeView.cpp
+  [29/105] Compile Module.CommonUIEditor.cpp
+  [30/105] Compile SteamController.cpp
+  [31/105] Compile Module.OculusAudioEditor.cpp
+  [32/105] Compile Module.VRExpansionPlugin.6_of_13.cpp
+  [33/105] Compile Module.VRExpansionEditor.cpp
+  [34/105] Compile Module.OpenVRExpansionPlugin.cpp
+  [35/105] Compile Pong.cpp
+  [36/105] Compile Pong.init.gen.cpp
+  [37/105] Compile Cpp_AdvancedFunctionLibrary.cpp
+  [38/105] Compile Cpp_AdvancedFunctionLibrary.gen.cpp
+  [39/105] Link UnrealEditor-GeometryFlowCore.dll
+     Creating library ..\Plugins\Experimental\GeometryFlow\Intermediate\Build\Win64\UnrealEditor\Development\GeometryFlowCore\UnrealEditor-GeometryFlowCore.suppressed.lib and object ..\Plugins\Experimental\GeometryFlow\Intermediate\Build\Win64\UnrealEditor\Development\GeometryFlowCore\UnrealEditor-GeometryFlowCore.suppressed.exp
+  [40/105] Link UnrealEditor-GeometryFlowCore.lib
+     Creating library ..\Plugins\Experimental\GeometryFlow\Intermediate\Build\Win64\UnrealEditor\Development\GeometryFlowCore\UnrealEditor-GeometryFlowCore.lib and object ..\Plugins\Experimental\GeometryFlow\Intermediate\Build\Win64\UnrealEditor\Development\GeometryFlowCore\UnrealEditor-GeometryFlowCore.exp
+  [41/105] Link UnrealEditor-ConcertTransport.lib
+     Creating library ..\Plugins\Developer\Concert\ConcertMain\Intermediate\Build\Win64\UnrealEditor\Development\ConcertTransport\UnrealEditor-ConcertTransport.lib and object ..\Plugins\Developer\Concert\ConcertMain\Intermediate\Build\Win64\UnrealEditor\Development\ConcertTransport\UnrealEditor-ConcertTransport.exp
+  [42/105] Link UnrealEditor-ConcertTransport.dll
+     Creating library ..\Plugins\Developer\Concert\ConcertMain\Intermediate\Build\Win64\UnrealEditor\Development\ConcertTransport\UnrealEditor-ConcertTransport.suppressed.lib and object ..\Plugins\Developer\Concert\ConcertMain\Intermediate\Build\Win64\UnrealEditor\Development\ConcertTransport\UnrealEditor-ConcertTransport.suppressed.exp
+  [43/105] Link UnrealEditor-GeometryFlowMeshProcessing.lib
+     Creating library ..\Plugins\Experimental\GeometryFlow\Intermediate\Build\Win64\UnrealEditor\Development\GeometryFlowMeshProcessing\UnrealEditor-GeometryFlowMeshProcessing.lib and object ..\Plugins\Experimental\GeometryFlow\Intermediate\Build\Win64\UnrealEditor\Development\GeometryFlowMeshProcessing\UnrealEditor-GeometryFlowMeshProcessing.exp
+  [44/105] Link UnrealEditor-Concert.lib
+     Creating library ..\Plugins\Developer\Concert\ConcertMain\Intermediate\Build\Win64\UnrealEditor\Development\Concert\UnrealEditor-Concert.lib and object ..\Plugins\Developer\Concert\ConcertMain\Intermediate\Build\Win64\UnrealEditor\Development\Concert\UnrealEditor-Concert.exp
+  [45/105] Link UnrealEditor-CommonInput.lib
+     Creating library ..\Plugins\Experimental\CommonUI\Intermediate\Build\Win64\UnrealEditor\Development\CommonInput\UnrealEditor-CommonInput.lib and object ..\Plugins\Experimental\CommonUI\Intermediate\Build\Win64\UnrealEditor\Development\CommonInput\UnrealEditor-CommonInput.exp
+  [46/105] Link UnrealEditor-CommonInput.dll
+     Creating library ..\Plugins\Experimental\CommonUI\Intermediate\Build\Win64\UnrealEditor\Development\CommonInput\UnrealEditor-CommonInput.suppressed.lib and object ..\Plugins\Experimental\CommonUI\Intermediate\Build\Win64\UnrealEditor\Development\CommonInput\UnrealEditor-CommonInput.suppressed.exp
+  [47/105] Link UnrealEditor-StylusInput.lib
+     Creating library ..\Plugins\Editor\StylusInput\Intermediate\Build\Win64\UnrealEditor\Development\StylusInput\UnrealEditor-StylusInput.lib and object ..\Plugins\Editor\StylusInput\Intermediate\Build\Win64\UnrealEditor\Development\StylusInput\UnrealEditor-StylusInput.exp
+  [48/105] Compile Module.OpenXRExpansionEditor.cpp
+  [49/105] Link UnrealEditor-GeometryFlowMeshProcessingEditor.lib
+     Creating library ..\Plugins\Experimental\GeometryFlow\Intermediate\Build\Win64\UnrealEditor\Development\GeometryFlowMeshProcessingEditor\UnrealEditor-GeometryFlowMeshProcessingEditor.lib and object ..\Plugins\Experimental\GeometryFlow\Intermediate\Build\Win64\UnrealEditor\Development\GeometryFlowMeshProcessingEditor\UnrealEditor-GeometryFlowMeshProcessingEditor.exp
+  [50/105] Link UnrealEditor-ConsoleVariablesEditorRuntime.lib
+     Creating library ..\Plugins\Editor\ConsoleVariablesEditor\Intermediate\Build\Win64\UnrealEditor\Development\ConsoleVariablesEditorRuntime\UnrealEditor-ConsoleVariablesEditorRuntime.lib and object ..\Plugins\Editor\ConsoleVariablesEditor\Intermediate\Build\Win64\UnrealEditor\Development\ConsoleVariablesEditorRuntime\UnrealEditor-ConsoleVariablesEditorRuntime.exp
+  [51/105] Link UnrealEditor-StylusInput.dll
+     Creating library ..\Plugins\Editor\StylusInput\Intermediate\Build\Win64\UnrealEditor\Development\StylusInput\UnrealEditor-StylusInput.suppressed.lib and object ..\Plugins\Editor\StylusInput\Intermediate\Build\Win64\UnrealEditor\Development\StylusInput\UnrealEditor-StylusInput.suppressed.exp
+  [52/105] Link UnrealEditor-ConcertSyncCore.lib
+     Creating library ..\Plugins\Developer\Concert\ConcertSync\ConcertSyncCore\Intermediate\Build\Win64\UnrealEditor\Development\ConcertSyncCore\UnrealEditor-ConcertSyncCore.lib and object ..\Plugins\Developer\Concert\ConcertSync\ConcertSyncCore\Intermediate\Build\Win64\UnrealEditor\Development\ConcertSyncCore\UnrealEditor-ConcertSyncCore.exp
+  [53/105] Link UnrealEditor-MeshLODToolset.lib
+     Creating library ..\Plugins\Experimental\MeshLODToolset\Intermediate\Build\Win64\UnrealEditor\Development\MeshLODToolset\UnrealEditor-MeshLODToolset.lib and object ..\Plugins\Experimental\MeshLODToolset\Intermediate\Build\Win64\UnrealEditor\Development\MeshLODToolset\UnrealEditor-MeshLODToolset.exp
+  [54/105] Link UnrealEditor-ConcertSyncClient.lib
+     Creating library ..\Plugins\Developer\Concert\ConcertSync\ConcertSyncClient\Intermediate\Build\Win64\UnrealEditor\Development\ConcertSyncClient\UnrealEditor-ConcertSyncClient.lib and object ..\Plugins\Developer\Concert\ConcertSync\ConcertSyncClient\Intermediate\Build\Win64\UnrealEditor\Development\ConcertSyncClient\UnrealEditor-ConcertSyncClient.exp
+  [55/105] Link UnrealEditor-SteamShared.lib
+     Creating library ..\Plugins\Runtime\Steam\SteamShared\Intermediate\Build\Win64\UnrealEditor\Development\SteamShared\UnrealEditor-SteamShared.lib and object ..\Plugins\Runtime\Steam\SteamShared\Intermediate\Build\Win64\UnrealEditor\Development\SteamShared\UnrealEditor-SteamShared.exp
+  [56/105] Link UnrealEditor-SteamShared.dll
+     Creating library ..\Plugins\Runtime\Steam\SteamShared\Intermediate\Build\Win64\UnrealEditor\Development\SteamShared\UnrealEditor-SteamShared.suppressed.lib and object ..\Plugins\Runtime\Steam\SteamShared\Intermediate\Build\Win64\UnrealEditor\Development\SteamShared\UnrealEditor-SteamShared.suppressed.exp
+  [57/105] Link UnrealEditor-CommonUI.lib
+     Creating library ..\Plugins\Experimental\CommonUI\Intermediate\Build\Win64\UnrealEditor\Development\CommonUI\UnrealEditor-CommonUI.lib and object ..\Plugins\Experimental\CommonUI\Intermediate\Build\Win64\UnrealEditor\Development\CommonUI\UnrealEditor-CommonUI.exp
+  [58/105] Link UnrealEditor-MeshConversionEngineTypes.lib
+     Creating library ..\Intermediate\Build\Win64\UnrealEditor\Development\MeshConversionEngineTypes\UnrealEditor-MeshConversionEngineTypes.lib and object ..\Intermediate\Build\Win64\UnrealEditor\Development\MeshConversionEngineTypes\UnrealEditor-MeshConversionEngineTypes.exp
+  [59/105] Link UnrealEditor-ConsoleVariablesEditorRuntime.dll
+     Creating library ..\Plugins\Editor\ConsoleVariablesEditor\Intermediate\Build\Win64\UnrealEditor\Development\ConsoleVariablesEditorRuntime\UnrealEditor-ConsoleVariablesEditorRuntime.suppressed.lib and object ..\Plugins\Editor\ConsoleVariablesEditor\Intermediate\Build\Win64\UnrealEditor\Development\ConsoleVariablesEditorRuntime\UnrealEditor-ConsoleVariablesEditorRuntime.suppressed.exp
+  [60/105] Link UnrealEditor-OculusAudio.lib
+     Creating library ..\Plugins\Runtime\Oculus\OculusAudio\Intermediate\Build\Win64\UnrealEditor\Development\OculusAudio\UnrealEditor-OculusAudio.lib and object ..\Plugins\Runtime\Oculus\OculusAudio\Intermediate\Build\Win64\UnrealEditor\Development\OculusAudio\UnrealEditor-OculusAudio.exp
+  [61/105] Link UnrealEditor-MeshConversionEngineTypes.dll
+     Creating library ..\Intermediate\Build\Win64\UnrealEditor\Development\MeshConversionEngineTypes\UnrealEditor-MeshConversionEngineTypes.suppressed.lib and object ..\Intermediate\Build\Win64\UnrealEditor\Development\MeshConversionEngineTypes\UnrealEditor-MeshConversionEngineTypes.suppressed.exp
+  [62/105] Link UnrealEditor-OpenXRExpansionPlugin.lib
+     Creating library ..\Plugins\OpenXRExpansionPlugin\Intermediate\Build\Win64\UnrealEditor\Development\OpenXRExpansionPlugin\UnrealEditor-OpenXRExpansionPlugin.lib and object ..\Plugins\OpenXRExpansionPlugin\Intermediate\Build\Win64\UnrealEditor\Development\OpenXRExpansionPlugin\UnrealEditor-OpenXRExpansionPlugin.exp
+  [63/105] Link UnrealEditor-OculusAudio.dll
+     Creating library ..\Plugins\Runtime\Oculus\OculusAudio\Intermediate\Build\Win64\UnrealEditor\Development\OculusAudio\UnrealEditor-OculusAudio.suppressed.lib and object ..\Plugins\Runtime\Oculus\OculusAudio\Intermediate\Build\Win64\UnrealEditor\Development\OculusAudio\UnrealEditor-OculusAudio.suppressed.exp
+  [64/105] Link UnrealEditor-ConcertSharedSlate.lib
+     Creating library ..\Plugins\Developer\Concert\ConcertUI\ConcertSharedSlate\Intermediate\Build\Win64\UnrealEditor\Development\ConcertSharedSlate\UnrealEditor-ConcertSharedSlate.lib and object ..\Plugins\Developer\Concert\ConcertUI\ConcertSharedSlate\Intermediate\Build\Win64\UnrealEditor\Development\ConcertSharedSlate\UnrealEditor-ConcertSharedSlate.exp
+  [65/105] Link UnrealEditor-SQLiteCore.lib
+     Creating library ..\Plugins\Runtime\Database\SQLiteCore\Intermediate\Build\Win64\UnrealEditor\Development\SQLiteCore\UnrealEditor-SQLiteCore.lib and object ..\Plugins\Runtime\Database\SQLiteCore\Intermediate\Build\Win64\UnrealEditor\Development\SQLiteCore\UnrealEditor-SQLiteCore.exp
+  [66/105] Link UnrealEditor-OpenXRExpansionPlugin.dll
+     Creating library ..\Plugins\OpenXRExpansionPlugin\Intermediate\Build\Win64\UnrealEditor\Development\OpenXRExpansionPlugin\UnrealEditor-OpenXRExpansionPlugin.suppressed.lib and object ..\Plugins\OpenXRExpansionPlugin\Intermediate\Build\Win64\UnrealEditor\Development\OpenXRExpansionPlugin\UnrealEditor-OpenXRExpansionPlugin.suppressed.exp
+  [67/105] Link UnrealEditor-SQLiteCore.dll
+     Creating library ..\Plugins\Runtime\Database\SQLiteCore\Intermediate\Build\Win64\UnrealEditor\Development\SQLiteCore\UnrealEditor-SQLiteCore.suppressed.lib and object ..\Plugins\Runtime\Database\SQLiteCore\Intermediate\Build\Win64\UnrealEditor\Development\SQLiteCore\UnrealEditor-SQLiteCore.suppressed.exp
+  [68/105] Link UnrealEditor-CodeView.lib
+     Creating library ..\Plugins\Experimental\CodeView\Intermediate\Build\Win64\UnrealEditor\Development\CodeView\UnrealEditor-CodeView.lib and object ..\Plugins\Experimental\CodeView\Intermediate\Build\Win64\UnrealEditor\Development\CodeView\UnrealEditor-CodeView.exp
+  [69/105] Link UnrealEditor-CommonUIEditor.lib
+     Creating library ..\Plugins\Experimental\CommonUI\Intermediate\Build\Win64\UnrealEditor\Development\CommonUIEditor\UnrealEditor-CommonUIEditor.lib and object ..\Plugins\Experimental\CommonUI\Intermediate\Build\Win64\UnrealEditor\Development\CommonUIEditor\UnrealEditor-CommonUIEditor.exp
+  [70/105] Link UnrealEditor-SteamController.lib
+     Creating library ..\Plugins\Runtime\Steam\SteamController\Intermediate\Build\Win64\UnrealEditor\Development\SteamController\UnrealEditor-SteamController.lib and object ..\Plugins\Runtime\Steam\SteamController\Intermediate\Build\Win64\UnrealEditor\Development\SteamController\UnrealEditor-SteamController.exp
+  [71/105] Link UnrealEditor-OculusAudioEditor.lib
+     Creating library ..\Plugins\Runtime\Oculus\OculusAudio\Intermediate\Build\Win64\UnrealEditor\Development\OculusAudioEditor\UnrealEditor-OculusAudioEditor.lib and object ..\Plugins\Runtime\Oculus\OculusAudio\Intermediate\Build\Win64\UnrealEditor\Development\OculusAudioEditor\UnrealEditor-OculusAudioEditor.exp
+  [72/105] Link UnrealEditor-VRExpansionEditor.lib
+     Creating library ..\Plugins\VRExpansionPlugin\Intermediate\Build\Win64\UnrealEditor\Development\VRExpansionEditor\UnrealEditor-VRExpansionEditor.lib and object ..\Plugins\VRExpansionPlugin\Intermediate\Build\Win64\UnrealEditor\Development\VRExpansionEditor\UnrealEditor-VRExpansionEditor.exp
+  [73/105] Link UnrealEditor-CodeView.dll
+     Creating library ..\Plugins\Experimental\CodeView\Intermediate\Build\Win64\UnrealEditor\Development\CodeView\UnrealEditor-CodeView.suppressed.lib and object ..\Plugins\Experimental\CodeView\Intermediate\Build\Win64\UnrealEditor\Development\CodeView\UnrealEditor-CodeView.suppressed.exp
+  [74/105] Link UnrealEditor-OpenVRExpansionPlugin.lib
+     Creating library ..\Plugins\OpenVRExpansionPlugin\Intermediate\Build\Win64\UnrealEditor\Development\OpenVRExpansionPlugin\UnrealEditor-OpenVRExpansionPlugin.lib and object ..\Plugins\OpenVRExpansionPlugin\Intermediate\Build\Win64\UnrealEditor\Development\OpenVRExpansionPlugin\UnrealEditor-OpenVRExpansionPlugin.exp
+  [75/105] Link UnrealEditor-OpenVRExpansionPlugin.dll
+     Creating library ..\Plugins\OpenVRExpansionPlugin\Intermediate\Build\Win64\UnrealEditor\Development\OpenVRExpansionPlugin\UnrealEditor-OpenVRExpansionPlugin.suppressed.lib and object ..\Plugins\OpenVRExpansionPlugin\Intermediate\Build\Win64\UnrealEditor\Development\OpenVRExpansionPlugin\UnrealEditor-OpenVRExpansionPlugin.suppressed.exp
+  [76/105] Link UnrealEditor-Pong.lib
+     Creating library D:\Pong\Pong_NathanielWeissinger_v10 5.1\Intermediate\Build\Win64\UnrealEditor\Development\Pong\UnrealEditor-Pong.lib and object D:\Pong\Pong_NathanielWeissinger_v10 5.1\Intermediate\Build\Win64\UnrealEditor\Development\Pong\UnrealEditor-Pong.exp
+  [77/105] Link UnrealEditor-GeometryFlowMeshProcessing.dll
+     Creating library ..\Plugins\Experimental\GeometryFlow\Intermediate\Build\Win64\UnrealEditor\Development\GeometryFlowMeshProcessing\UnrealEditor-GeometryFlowMeshProcessing.suppressed.lib and object ..\Plugins\Experimental\GeometryFlow\Intermediate\Build\Win64\UnrealEditor\Development\GeometryFlowMeshProcessing\UnrealEditor-GeometryFlowMeshProcessing.suppressed.exp
+  [78/105] Link UnrealEditor-Pong.dll
+     Creating library D:\Pong\Pong_NathanielWeissinger_v10 5.1\Intermediate\Build\Win64\UnrealEditor\Development\Pong\UnrealEditor-Pong.suppressed.lib and object D:\Pong\Pong_NathanielWeissinger_v10 5.1\Intermediate\Build\Win64\UnrealEditor\Development\Pong\UnrealEditor-Pong.suppressed.exp
+  [79/105] Link UnrealEditor-GeometryFlowMeshProcessingEditor.dll
+     Creating library ..\Plugins\Experimental\GeometryFlow\Intermediate\Build\Win64\UnrealEditor\Development\GeometryFlowMeshProcessingEditor\UnrealEditor-GeometryFlowMeshProcessingEditor.suppressed.lib and object ..\Plugins\Experimental\GeometryFlow\Intermediate\Build\Win64\UnrealEditor\Development\GeometryFlowMeshProcessingEditor\UnrealEditor-GeometryFlowMeshProcessingEditor.suppressed.exp
+  [80/105] Link UnrealEditor-Concert.dll
+     Creating library ..\Plugins\Developer\Concert\ConcertMain\Intermediate\Build\Win64\UnrealEditor\Development\Concert\UnrealEditor-Concert.suppressed.lib and object ..\Plugins\Developer\Concert\ConcertMain\Intermediate\Build\Win64\UnrealEditor\Development\Concert\UnrealEditor-Concert.suppressed.exp
+  [81/105] Link UnrealEditor-OpenXRExpansionEditor.lib
+     Creating library ..\Plugins\OpenXRExpansionPlugin\Intermediate\Build\Win64\UnrealEditor\Development\OpenXRExpansionEditor\UnrealEditor-OpenXRExpansionEditor.lib and object ..\Plugins\OpenXRExpansionPlugin\Intermediate\Build\Win64\UnrealEditor\Development\OpenXRExpansionEditor\UnrealEditor-OpenXRExpansionEditor.exp
+  [82/105] Link UnrealEditor-CommonUI.dll
+     Creating library ..\Plugins\Experimental\CommonUI\Intermediate\Build\Win64\UnrealEditor\Development\CommonUI\UnrealEditor-CommonUI.suppressed.lib and object ..\Plugins\Experimental\CommonUI\Intermediate\Build\Win64\UnrealEditor\Development\CommonUI\UnrealEditor-CommonUI.suppressed.exp
+  [83/105] Link UnrealEditor-ConcertSyncClient.dll
+     Creating library ..\Plugins\Developer\Concert\ConcertSync\ConcertSyncClient\Intermediate\Build\Win64\UnrealEditor\Development\ConcertSyncClient\UnrealEditor-ConcertSyncClient.suppressed.lib and object ..\Plugins\Developer\Concert\ConcertSync\ConcertSyncClient\Intermediate\Build\Win64\UnrealEditor\Development\ConcertSyncClient\UnrealEditor-ConcertSyncClient.suppressed.exp
+  [84/105] Link UnrealEditor-ConcertSharedSlate.dll
+     Creating library ..\Plugins\Developer\Concert\ConcertUI\ConcertSharedSlate\Intermediate\Build\Win64\UnrealEditor\Development\ConcertSharedSlate\UnrealEditor-ConcertSharedSlate.suppressed.lib and object ..\Plugins\Developer\Concert\ConcertUI\ConcertSharedSlate\Intermediate\Build\Win64\UnrealEditor\Development\ConcertSharedSlate\UnrealEditor-ConcertSharedSlate.suppressed.exp
+  [85/105] Link UnrealEditor-SteamController.dll
+     Creating library ..\Plugins\Runtime\Steam\SteamController\Intermediate\Build\Win64\UnrealEditor\Development\SteamController\UnrealEditor-SteamController.suppressed.lib and object ..\Plugins\Runtime\Steam\SteamController\Intermediate\Build\Win64\UnrealEditor\Development\SteamController\UnrealEditor-SteamController.suppressed.exp
+  [86/105] Link UnrealEditor-CommonUIEditor.dll
+     Creating library ..\Plugins\Experimental\CommonUI\Intermediate\Build\Win64\UnrealEditor\Development\CommonUIEditor\UnrealEditor-CommonUIEditor.suppressed.lib and object ..\Plugins\Experimental\CommonUI\Intermediate\Build\Win64\UnrealEditor\Development\CommonUIEditor\UnrealEditor-CommonUIEditor.suppressed.exp
+  [87/105] Link UnrealEditor-MeshLODToolset.dll
+     Creating library ..\Plugins\Experimental\MeshLODToolset\Intermediate\Build\Win64\UnrealEditor\Development\MeshLODToolset\UnrealEditor-MeshLODToolset.suppressed.lib and object ..\Plugins\Experimental\MeshLODToolset\Intermediate\Build\Win64\UnrealEditor\Development\MeshLODToolset\UnrealEditor-MeshLODToolset.suppressed.exp
+  [88/105] Link UnrealEditor-OculusAudioEditor.dll
+     Creating library ..\Plugins\Runtime\Oculus\OculusAudio\Intermediate\Build\Win64\UnrealEditor\Development\OculusAudioEditor\UnrealEditor-OculusAudioEditor.suppressed.lib and object ..\Plugins\Runtime\Oculus\OculusAudio\Intermediate\Build\Win64\UnrealEditor\Development\OculusAudioEditor\UnrealEditor-OculusAudioEditor.suppressed.exp
+  [89/105] Link UnrealEditor-OpenXRExpansionEditor.dll
+     Creating library ..\Plugins\OpenXRExpansionPlugin\Intermediate\Build\Win64\UnrealEditor\Development\OpenXRExpansionEditor\UnrealEditor-OpenXRExpansionEditor.suppressed.lib and object ..\Plugins\OpenXRExpansionPlugin\Intermediate\Build\Win64\UnrealEditor\Development\OpenXRExpansionEditor\UnrealEditor-OpenXRExpansionEditor.suppressed.exp
+  [90/105] Link UnrealEditor-ConcertSyncCore.dll
+     Creating library ..\Plugins\Developer\Concert\ConcertSync\ConcertSyncCore\Intermediate\Build\Win64\UnrealEditor\Development\ConcertSyncCore\UnrealEditor-ConcertSyncCore.suppressed.lib and object ..\Plugins\Developer\Concert\ConcertSync\ConcertSyncCore\Intermediate\Build\Win64\UnrealEditor\Development\ConcertSyncCore\UnrealEditor-ConcertSyncCore.suppressed.exp
+  [91/105] Compile Module.VRExpansionPlugin.10_of_13.cpp
+  [92/105] Compile Module.ConsoleVariablesEditor.cpp
+  [93/105] Link UnrealEditor-ConsoleVariablesEditor.lib
+     Creating library ..\Plugins\Editor\ConsoleVariablesEditor\Intermediate\Build\Win64\UnrealEditor\Development\ConsoleVariablesEditor\UnrealEditor-ConsoleVariablesEditor.lib and object ..\Plugins\Editor\ConsoleVariablesEditor\Intermediate\Build\Win64\UnrealEditor\Development\ConsoleVariablesEditor\UnrealEditor-ConsoleVariablesEditor.exp
+  [94/105] Link UnrealEditor-ConsoleVariablesEditor.dll
+     Creating library ..\Plugins\Editor\ConsoleVariablesEditor\Intermediate\Build\Win64\UnrealEditor\Development\ConsoleVariablesEditor\UnrealEditor-ConsoleVariablesEditor.suppressed.lib and object ..\Plugins\Editor\ConsoleVariablesEditor\Intermediate\Build\Win64\UnrealEditor\Development\ConsoleVariablesEditor\UnrealEditor-ConsoleVariablesEditor.suppressed.exp
+  [95/105] Compile Module.VRExpansionPlugin.12_of_13.cpp
+  [96/105] Compile Module.VRExpansionPlugin.13_of_13.cpp
+  [97/105] Compile Module.VRExpansionPlugin.11_of_13.cpp
+  [98/105] Link UnrealEditor-VRExpansionPlugin.lib
+     Creating library ..\Plugins\VRExpansionPlugin\Intermediate\Build\Win64\UnrealEditor\Development\VRExpansionPlugin\UnrealEditor-VRExpansionPlugin.lib and object ..\Plugins\VRExpansionPlugin\Intermediate\Build\Win64\UnrealEditor\Development\VRExpansionPlugin\UnrealEditor-VRExpansionPlugin.exp
+  [99/105] Link UnrealEditor-VRExpansionEditor.dll
+     Creating library ..\Plugins\VRExpansionPlugin\Intermediate\Build\Win64\UnrealEditor\Development\VRExpansionEditor\UnrealEditor-VRExpansionEditor.suppressed.lib and object ..\Plugins\VRExpansionPlugin\Intermediate\Build\Win64\UnrealEditor\Development\VRExpansionEditor\UnrealEditor-VRExpansionEditor.suppressed.exp
+  [100/105] Compile Module.ModelingToolsEditorMode.cpp
+  [101/105] Link UnrealEditor-VRExpansionPlugin.dll
+     Creating library ..\Plugins\VRExpansionPlugin\Intermediate\Build\Win64\UnrealEditor\Development\VRExpansionPlugin\UnrealEditor-VRExpansionPlugin.suppressed.lib and object ..\Plugins\VRExpansionPlugin\Intermediate\Build\Win64\UnrealEditor\Development\VRExpansionPlugin\UnrealEditor-VRExpansionPlugin.suppressed.exp
+  [102/105] Link UnrealEditor-ModelingToolsEditorMode.lib
+     Creating library ..\Plugins\Editor\ModelingToolsEditorMode\Intermediate\Build\Win64\UnrealEditor\Development\ModelingToolsEditorMode\UnrealEditor-ModelingToolsEditorMode.lib and object ..\Plugins\Editor\ModelingToolsEditorMode\Intermediate\Build\Win64\UnrealEditor\Development\ModelingToolsEditorMode\UnrealEditor-ModelingToolsEditorMode.exp
+  [103/105] Link UnrealEditor-ModelingToolsEditorMode.dll
+     Creating library ..\Plugins\Editor\ModelingToolsEditorMode\Intermediate\Build\Win64\UnrealEditor\Development\ModelingToolsEditorMode\UnrealEditor-ModelingToolsEditorMode.suppressed.lib and object ..\Plugins\Editor\ModelingToolsEditorMode\Intermediate\Build\Win64\UnrealEditor\Development\ModelingToolsEditorMode\UnrealEditor-ModelingToolsEditorMode.suppressed.exp
+  [104/105] WriteMetadata UnrealEditor.version
+  [105/105] WriteMetadata PongEditor.target
+  Total time in Parallel executor: 153.08 seconds
+  Total execution time: 154.20 seconds

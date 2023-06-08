@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Pong",
+			"Path": "D:\\Pong\\Pong_NathanielWeissinger_v10 5.1\\Source\\Pong.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "PongEditor",
+			"Path": "D:\\Pong\\Pong_NathanielWeissinger_v10 5.1\\Source\\PongEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

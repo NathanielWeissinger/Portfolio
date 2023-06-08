@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|x64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|x64">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|x64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|x64">
+      <Configuration>Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|x64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{778E1F18-794E-3AE6-B8F2-D92D0F82B82C}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>DatasmithCADWorker</RootNamespace>
+    <PlatformToolset>v143</PlatformToolset>
+    <MinimumVisualStudioVersion>17.0</MinimumVisualStudioVersion>
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat DatasmithCADWorker Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat DatasmithCADWorker Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat DatasmithCADWorker Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UE5.1\UnrealEngine\Engine\Plugins\Enterprise\DatasmithCADImporter\Binaries\Win64\DatasmithCADWorker-Win64-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat DatasmithCADWorker Win64 DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat DatasmithCADWorker Win64 DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat DatasmithCADWorker Win64 DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UE5.1\UnrealEngine\Engine\Plugins\Enterprise\DatasmithCADImporter\Binaries\Win64\DatasmithCADWorker-Win64-DebugGame.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat DatasmithCADWorker Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat DatasmithCADWorker Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat DatasmithCADWorker Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UE5.1\UnrealEngine\Engine\Plugins\Enterprise\DatasmithCADImporter\Binaries\Win64\DatasmithCADWorker.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat DatasmithCADWorker Win64 Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat DatasmithCADWorker Win64 Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat DatasmithCADWorker Win64 Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UE5.1\UnrealEngine\Engine\Plugins\Enterprise\DatasmithCADImporter\Binaries\Win64\DatasmithCADWorker-Win64-Test.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat DatasmithCADWorker Win64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat DatasmithCADWorker Win64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat DatasmithCADWorker Win64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UE5.1\UnrealEngine\Engine\Plugins\Enterprise\DatasmithCADImporter\Binaries\Win64\DatasmithCADWorker-Win64-Shipping.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);C:\UE5.1\UnrealEngine\Engine\Source;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\Launch\Private;C:\UE5.1\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithCADWorker\Private;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\Core\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\Core\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\TraceLog\Public;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\Core\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\TraceLog\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\TraceLog\VNI;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\Projects\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\Projects\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\Projects\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\Json\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\Json\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\Json\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\ApplicationCore\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\ApplicationCore\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\ApplicationCore\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\RHI\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\RHI\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\RHI\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\Sockets\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\Sockets\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\Sockets\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\NetCommon\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\NetCommon\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\Net;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\Net\Common\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\DatasmithDispatcher\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\DatasmithDispatcher\VNI;C:\UE5.1\UnrealEngine\Engine\Plugins\Enterprise\DatasmithCADImporter\Source;C:\UE5.1\UnrealEngine\Engine\Plugins\Enterprise\DatasmithCADImporter\Source\DatasmithDispatcher\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\CADInterfaces\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\CADInterfaces\VNI;C:\UE5.1\UnrealEngine\Engine\Plugins\Enterprise\DatasmithCADImporter\Source\CADInterfaces\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\CADKernel\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\CADKernel\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\Datasmith;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\Datasmith\CADKernel\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\CADLibrary\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\CADLibrary\VNI;C:\UE5.1\UnrealEngine\Engine\Plugins\Enterprise\DatasmithCADImporter\Source\CADLibrary\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\CADTools\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\CADTools\VNI;C:\UE5.1\UnrealEngine\Engine\Plugins\Enterprise\DatasmithCADImporter\Source\CADTools\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\DatasmithCore\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\DatasmithCore\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\Datasmith\DatasmithCore\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\CoreUObject\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\CoreUObject\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\DirectLink\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\DirectLink\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\Datasmith\DirectLink\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\Messaging\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\Messaging\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\Messaging\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\MeshDescription\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\MeshDescription\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\MeshDescription\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\RawMesh\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\RawMesh\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\RawMesh\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\StaticMeshDescription\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\StaticMeshDescription\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\StaticMeshDescription\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\DynamicMesh\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\DynamicMesh\VNI;C:\UE5.1\UnrealEngine\Engine\Plugins\Runtime\GeometryProcessing\Source;C:\UE5.1\UnrealEngine\Engine\Plugins\Runtime\GeometryProcessing\Source\DynamicMesh\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\GeometryCore\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\GeometryCore\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\Engine\Public;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\GeometryCore\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\AnimationCore\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\AnimationCore\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\AnimationCore\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\GeometryAlgorithms\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\GeometryAlgorithms\VNI;C:\UE5.1\UnrealEngine\Engine\Plugins\Runtime\GeometryProcessing\Source\GeometryAlgorithms\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\MeshConversion\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\MeshConversion\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\MeshConversion\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\SkeletalMeshDescription\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\SkeletalMeshDescription\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\SkeletalMeshDescription\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\DatasmithCADWorker\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\DatasmithCADWorker\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\Launch\Public;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithCADWorker\DatasmithCADWorker.Target.cs"/>
+    <None Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithCADWorker\DatasmithCADWorker.Build.cs"/>
+    <ClCompile Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithCADWorker\Private\DatasmithCADWorker.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Development\Core\SharedPCH.Core.ShadowErrors.h;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Development\DatasmithCADWorker\Definitions.DatasmithCADWorker.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithCADWorker\Private\DatasmithCADWorker.h"/>
+    <ClCompile Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithCADWorker\Private\DatasmithCADWorkerImpl.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Development\Core\SharedPCH.Core.ShadowErrors.h;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Development\DatasmithCADWorker\Definitions.DatasmithCADWorker.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithCADWorker\Private\DatasmithCADWorkerImpl.h"/>
+    <None Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithCADWorker\Resources\Windows\BlankProgram.ico"/>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

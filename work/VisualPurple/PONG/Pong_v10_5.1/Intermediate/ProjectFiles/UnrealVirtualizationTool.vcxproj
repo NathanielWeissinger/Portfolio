@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|x64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|x64">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|x64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|x64">
+      <Configuration>Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|x64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{04FC1487-F975-3560-856A-18CBBEDA34CA}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>UnrealVirtualizationTool</RootNamespace>
+    <PlatformToolset>v143</PlatformToolset>
+    <MinimumVisualStudioVersion>17.0</MinimumVisualStudioVersion>
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealVirtualizationTool Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealVirtualizationTool Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealVirtualizationTool Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UE5.1\UnrealEngine\Engine\Binaries\Win64\UnrealVirtualizationTool-Win64-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealVirtualizationTool Win64 DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealVirtualizationTool Win64 DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealVirtualizationTool Win64 DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UE5.1\UnrealEngine\Engine\Binaries\Win64\UnrealVirtualizationTool-Win64-DebugGame.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealVirtualizationTool Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealVirtualizationTool Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealVirtualizationTool Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UE5.1\UnrealEngine\Engine\Binaries\Win64\UnrealVirtualizationTool.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealVirtualizationTool Win64 Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealVirtualizationTool Win64 Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealVirtualizationTool Win64 Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UE5.1\UnrealEngine\Engine\Binaries\Win64\UnrealVirtualizationTool-Win64-Test.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealVirtualizationTool Win64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealVirtualizationTool Win64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealVirtualizationTool Win64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UE5.1\UnrealEngine\Engine\Binaries\Win64\UnrealVirtualizationTool-Win64-Shipping.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);C:\UE5.1\UnrealEngine\Engine\Source;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\Launch\Private;C:\UE5.1\UnrealEngine\Engine\Source\Programs\UnrealVirtualizationTool\Private;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Inc\Core\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Inc\Core\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\TraceLog\Public;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\Core\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Inc\TraceLog\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Inc\TraceLog\VNI;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Inc\CoreUObject\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Inc\CoreUObject\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Inc\Virtualization\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Inc\Virtualization\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Developer;C:\UE5.1\UnrealEngine\Engine\Source\Developer\Virtualization\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Inc\Projects\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Inc\Projects\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\Projects\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Inc\Json\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Inc\Json\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\Json\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Inc\ApplicationCore\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Inc\ApplicationCore\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\ApplicationCore\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Inc\RHI\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Inc\RHI\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\RHI\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Inc\SourceControl\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Inc\SourceControl\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Developer\SourceControl\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Inc\SlateCore\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Inc\SlateCore\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\SlateCore\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Inc\InputCore\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Inc\InputCore\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\InputCore\Classes;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\InputCore\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Inc\DeveloperSettings\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Inc\DeveloperSettings\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\DeveloperSettings\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Inc\PerforceSourceControl\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Inc\PerforceSourceControl\VNI;C:\UE5.1\UnrealEngine\Engine\Plugins\Developer\PerforceSourceControl\Source;C:\UE5.1\UnrealEngine\Engine\Plugins\Developer\PerforceSourceControl\Source\PerforceSourceControl\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Inc\UnrealVirtualizationTool\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Inc\UnrealVirtualizationTool\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Programs;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\Launch\Public;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\UnrealVirtualizationTool\UnrealVirtualizationTool.Target.cs"/>
+    <None Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\UnrealVirtualizationTool\UnrealVirtualizationTool.Build.cs"/>
+    <ClCompile Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\UnrealVirtualizationTool\Private\ProjectFiles.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Development\UnrealVirtualizationTool\Definitions.UnrealVirtualizationTool.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\UnrealVirtualizationTool\Private\ProjectFiles.h"/>
+    <ClCompile Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\UnrealVirtualizationTool\Private\UnrealVirtualizationTool.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Development\UnrealVirtualizationTool\Definitions.UnrealVirtualizationTool.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\UnrealVirtualizationTool\Private\UnrealVirtualizationTool.h"/>
+    <ClCompile Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\UnrealVirtualizationTool\Private\UnrealVirtualizationToolApp.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Development\UnrealVirtualizationTool\Definitions.UnrealVirtualizationTool.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\UnrealVirtualizationTool\Private\UnrealVirtualizationToolApp.h"/>
+    <ClCompile Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\UnrealVirtualizationTool\Private\Commands\CommandBase.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Development\UnrealVirtualizationTool\Definitions.UnrealVirtualizationTool.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\UnrealVirtualizationTool\Private\Commands\CommandBase.h"/>
+    <ClCompile Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\UnrealVirtualizationTool\Private\Commands\RehydrateCommand.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Development\UnrealVirtualizationTool\Definitions.UnrealVirtualizationTool.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVirtualizationTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\UnrealVirtualizationTool\Private\Commands\RehydrateCommand.h"/>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

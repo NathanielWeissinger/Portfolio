@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|x64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|x64">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|x64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|x64">
+      <Configuration>Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|x64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9D96252A-31B5-36A5-8EFE-6BA44A057718}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>SlateUGS</RootNamespace>
+    <PlatformToolset>v143</PlatformToolset>
+    <MinimumVisualStudioVersion>17.0</MinimumVisualStudioVersion>
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat SlateUGS Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SlateUGS Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SlateUGS Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UE5.1\UnrealEngine\Engine\Binaries\Win64\SlateUGS-Win64-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat SlateUGS Win64 DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SlateUGS Win64 DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SlateUGS Win64 DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UE5.1\UnrealEngine\Engine\Binaries\Win64\SlateUGS-Win64-DebugGame.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat SlateUGS Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SlateUGS Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SlateUGS Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UE5.1\UnrealEngine\Engine\Binaries\Win64\SlateUGS.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat SlateUGS Win64 Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SlateUGS Win64 Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SlateUGS Win64 Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UE5.1\UnrealEngine\Engine\Binaries\Win64\SlateUGS-Win64-Test.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat SlateUGS Win64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SlateUGS Win64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UE5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SlateUGS Win64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UE5.1\UnrealEngine\Engine\Binaries\Win64\SlateUGS-Win64-Shipping.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);C:\UE5.1\UnrealEngine\Engine\Source;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\Launch\Private;C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\UGSCore\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\UGSCore\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Programs;C:\UE5.1\UnrealEngine\Engine\Source\Programs\UGSCore;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\Core\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\Core\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\TraceLog\Public;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\Core\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\TraceLog\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\TraceLog\VNI;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\AppFramework\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\AppFramework\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\AppFramework\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\CoreUObject\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\CoreUObject\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\ApplicationCore\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\ApplicationCore\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\ApplicationCore\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\RHI\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\RHI\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\RHI\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\Slate\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\Slate\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\Slate\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\InputCore\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\InputCore\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\InputCore\Classes;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\InputCore\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\Json\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\Json\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\Json\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\SlateCore\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\SlateCore\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\SlateCore\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\ImageWrapper\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\ImageWrapper\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\ImageWrapper\Public;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\ImageCore\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\ImageCore\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\ImageCore\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\Projects\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\Projects\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\Projects\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\StandaloneRenderer\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\StandaloneRenderer\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Developer;C:\UE5.1\UnrealEngine\Engine\Source\Developer\StandaloneRenderer\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\ToolWidgets\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\ToolWidgets\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Developer\ToolWidgets\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\ToolMenus\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\ToolMenus\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Developer\ToolMenus\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\DesktopPlatform\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\DesktopPlatform\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Developer\DesktopPlatform\Public;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\SlateUGS\UHT;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Inc\SlateUGS\VNI;C:\UE5.1\UnrealEngine\Engine\Source\Runtime\Launch\Public;C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Public;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\SlateUGS.Target.cs"/>
+    <None Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\SlateUGS.Build.cs"/>
+    <ClInclude Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\ChangeInfo.h"/>
+    <ClCompile Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\ScheduledSyncTimer.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\SlateUGS\Definitions.SlateUGS.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\ScheduledSyncTimer.h"/>
+    <ClCompile Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\SlateUGSApp.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\SlateUGS\Definitions.SlateUGS.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h"</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\SlateUGSStyle.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\SlateUGS\Definitions.SlateUGS.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\SlateUGSStyle.h"/>
+    <ClInclude Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\UGSLog.h"/>
+    <ClCompile Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\UGSTab.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\SlateUGS\Definitions.SlateUGS.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\UGSTab.h"/>
+    <ClCompile Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\UGSTabManager.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\SlateUGS\Definitions.SlateUGS.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\UGSTabManager.h"/>
+    <ClCompile Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Platforms\Linux\SlateUGSMainLinux.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\SlateUGS\Definitions.SlateUGS.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h"</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Platforms\Mac\SlateUGSMainMac.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\SlateUGS\Definitions.SlateUGS.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h"</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Platforms\Windows\SlateUGSMainWindows.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\SlateUGS\Definitions.SlateUGS.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h"</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SEmptyTab.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\SlateUGS\Definitions.SlateUGS.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SEmptyTab.h"/>
+    <ClCompile Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SGameSyncTab.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\SlateUGS\Definitions.SlateUGS.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SGameSyncTab.h"/>
+    <ClCompile Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SHordeBadge.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\SlateUGS\Definitions.SlateUGS.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SHordeBadge.h"/>
+    <ClCompile Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SLogWidget.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\SlateUGS\Definitions.SlateUGS.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SLogWidget.h"/>
+    <ClCompile Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SModalTaskWindow.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\SlateUGS\Definitions.SlateUGS.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SModalTaskWindow.h"/>
+    <ClCompile Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SPopupTextWindow.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\SlateUGS\Definitions.SlateUGS.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SPopupTextWindow.h"/>
+    <ClCompile Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SScheduledSyncWindow.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\SlateUGS\Definitions.SlateUGS.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SScheduledSyncWindow.h"/>
+    <ClCompile Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SSettingsWindow.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\SlateUGS\Definitions.SlateUGS.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SSettingsWindow.h"/>
+    <ClCompile Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SSyncFilterWindow.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\SlateUGS\Definitions.SlateUGS.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SSyncFilterWindow.h"/>
+    <ClCompile Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SWorkspaceWindow.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;C:\UE5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h;C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\SlateUGS\Definitions.SlateUGS.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"C:\UE5.1\UnrealEngine\Engine\Intermediate\Build\Win64\SlateUGS\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SWorkspaceWindow.h"/>
+    <ClInclude Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Public\SlateUGS.h"/>
+    <ClInclude Include="C:\UE5.1\UnrealEngine\Engine\Source\Programs\SlateUGS\Public\SlateUGSApp.h"/>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

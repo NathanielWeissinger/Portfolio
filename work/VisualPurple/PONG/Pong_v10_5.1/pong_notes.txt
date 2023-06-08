@@ -1,0 +1,163 @@
+Difficulty- smaller paddle for harder modes
+ball speed, hold button to hold ball temporarily
+press button at right time to have ball go faster
+every time paddle misses, paddle gets smaller
+DONE	every time the ball hits the paddle, ball gets faster, increase speed each paddle hit or round
+DONE	max score for game
+
+checkboxes for options (debug menu), tab to change game options real time
+
+min ball velocity
+
+ball- add degrees for instability
+where on paddle did it hit? Left/right of paddle moves ball more degrees change in direction
+change ball to cube, egg, simulate rotational physics
+
+doubles matches- two players on one side
+multiplayer online
+gravity wells
+orthographic (2d) to perspective (3d)
+
+Warlords- defend area, and the more your base gets hit, the smaller your paddle becomes
+
+
+Ssbb
+3 2 1 countdown, sound effects, camera shaking
+Press button to catch ball, spike ball
+Add gravity by changing orientation
+Color to paddles
+Bases
+Particle effects to ball
+Spiking mechanics- increase speed for duration, reset when it hits another paddle
+UI dev with sound effects
+Background music
+
+VR controller integration
+Figure out starting view direction in VR
+Rotational ball physics spin
+Add 5-10 degrees random direction after ball hits paddle
+Mouse/vr controller realtime movement
+Maybe vr controller can spike when accelerated at correct timing?
+Change gravity direction? Up/down for 2 player
+
+4 player Doubles team match (two same side), corners team match
+Single player: destroy base (player rotates around outside, bouncing ball towards a base on the inside, which chips away at the base. But the ball gets faster, and the player must block the ball all around)
+2 player vr ping pong: with gravity, see board along the side, and paddle can move freely within boundaries. Must bounce over net.
+3 player triangle:
+     |    |
+  /         \
+/    /  \    \
+
+
+Player labels, either words or color coded
+
+
+BOUNCING PLAYERS: Set linear damping to .01
+
+
+
+DEVMENU:
+GAME OPTIONS 2:
+	`Gravity (up, down, none, extra checkbox for chaos (randomized) with type-in variables stating how much gravity is allowed OR give prerequisites (earth, jupiter, pluto gravity))
+	\Realistic ball bouncing: ball material has friction when hitting floor, `but is given upwards momentum when a paddle hits (requires gravity enabled, under drop down menu)
+	`Ball velocity: Increases BOTH starting velocity and increase speed velocity (slider with number indicator below), but the Increase Speed upon Paddle Hit needs to be a check box
+	`Set Max Score of game
+	'Change ball shape: cube, sphere, cone, L shape
+DIFFICULTY 3:
+	CPU mode: easy, med, hard, impossible, with dropdown menu of variables
+	Paddle size: tiny, small, normal, oversized
+	Check box- Every time paddle misses, it gets smaller
+CONTROLS 4:
+	Control Bindings: Hold [F] to catch the ball, or press it at the right time to spike it, and other paddle movement options
+	Change controllers (player 1, 2, 3, etc)
+	Enable mouse movement (radio button for which player uses mouse)
+	VR enabled movement (hold trigger to move paddle, press trackpad or grip to spike)
+SOUND 5: Background music, sound effects (mute/unmute with sliders)
+VIDEO: Particle effects, processing, windowed mode, background images? (not sure if I should even add in this section), 3D vs 2D (perspective vs orthographic view), window size, camera speed (BOTH x and y)
+
+
+ACTUAL MENU:
+Single Player, Multiplayer, Online
+ADD DEV MENU TO MAIN MENU OPTIONS
+
+
+
+
+NEXT STEP:
+`Disable camera scrolling
+`Save settings
+spawn cpu actors
+
+SAVING:
+`save all options variables in Game Instance
+`if options are edited, change in Game Instance and immediately save
+`pull settings from game instance each time dev menu is pulled up
+
+SAVE HIGH SCORES
+
+
+
+
+
+NOTES--------------------------------------------------------------
+`Put WBP in front of Main Menu widget
+`background image set as variable, not needed
+keep naming conventions consistent (pong main menu)
+menu_panel instead of menu
+coordinates need clean numbers, keep aspect ratio
+text on buttons doesn't need names (btn instead of button)
+
+`Dev menu- canvas panels take a lot of memory
+bound values take up a lot of memory
+`Put resume at second bottom, put spacer between that and quit
+`Pascal/Camel case for dev menu stuff
+Add categories to everything
+
+SCORE
+unbind score variable so it isn't updating each tick
+size and placement of objects in score UI needs better pisition values
+
+tuple- return multiple values
+Reparent blueprint class as another class, then you can alter c++ stuff in blueprints and vice versa
+
+Move CPP advanced library to Utility class outside of Pong, then make it into a plugin
+Score as blueprint class, turn it into subsystem eventually
+
+put in a summary in cpp class
+
+number of players- set controllers, who hit the ball before
+mainmenu_p level, look at warnings/compile errors, BP fixes
+
+cpp compile warning- type conversion, float to string deprecated, root source code
+output log has warnings as well
+
+
+On cpp code: header: description, author, major revision history
+// for cpp, /**/ comments for header file
+
+
+
+
+
+
+
+
+
+
+If ball going down (hit on left side), degree is negative (Y is neg, X is pos)
+If going up on left, degree is positive (both X and Y are negative)
+upon hit, Y vector is turned negative BEFORE processing. X stays the same no matter what after reflection
+get velocity upon hit is NEW vector; get reflection is previous vector (X stays the same)
+HLR = + when near top, - when near bottom
+
+
+when bouncing upwards (-y, +x), degree positive
+when bouncing downwards (-y, -x), degree negative
+
+		+X
+		|
+		|
+	-Y----------------+
+		|
+		|
+		-
