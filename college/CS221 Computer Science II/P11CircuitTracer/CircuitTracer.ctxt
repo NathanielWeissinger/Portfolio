@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CircuitTracer
+comment0.text=\r\n\ Search\ for\ shortest\ paths\ between\ start\ and\ end\ points\ on\ a\ circuit\ board\r\n\ as\ read\ from\ an\ input\ file\ using\ either\ a\ stack\ or\ queue\ as\ the\ underlying\r\n\ search\ state\ storage\ structure\ and\ displaying\ output\ to\ the\ console\ or\ to\r\n\ a\ GUI\ according\ to\ options\ specified\ via\ command-line\ arguments.\r\n\ \r\n\ @author\ Nathaniel\ Weissinger\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\ launch\ the\ program\r\n\ @param\ args\ three\ required\ arguments\:\r\n\ \ first\ arg\:\ -s\ for\ stack\ or\ -q\ for\ queue\r\n\ \ second\ arg\:\ -c\ for\ console\ output\ or\ -g\ for\ GUI\ output\r\n\ \ third\ arg\:\ input\ file\ name\ \r\n
+comment2.params=
+comment2.target=void\ printUsage()
+comment2.text=Print\ instructions\ for\ running\ CircuitTracer\ from\ the\ command\ line.
+comment3.params=args
+comment3.target=CircuitTracer(java.lang.String[])
+comment3.text=\ \r\n\ Set\ up\ the\ CircuitBoard\ and\ all\ other\ components\ based\ on\ command\r\n\ line\ arguments.\r\n\ \r\n\ @param\ args\ command\ line\ arguments\ passed\ through\ from\ main()\r\n
+numComments=4

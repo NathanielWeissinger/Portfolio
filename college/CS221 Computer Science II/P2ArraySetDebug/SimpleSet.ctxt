@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=SimpleSet
+comment0.text=\r\n\ Operations\ required\ of\ a\ simple\ Set,\ a\ collection\ containing\ no\ duplicate\ elements\ and\ order\ is\ not\ important.\r\n\ \r\n\ @author\ mvail\r\n
+comment1.params=
+comment1.target=int\ size()
+comment1.text=\r\n\ Reports\ the\ number\ of\ elements\ in\ the\ set.\r\n\ @return\ the\ number\ of\ elements\ in\ the\ set\r\n
+comment2.params=
+comment2.target=boolean\ isEmpty()
+comment2.text=\r\n\ Determines\ if\ the\ set\ is\ empty\ (i.e.\ contains\ no\ elements).\r\n\ @return\ true\ if\ the\ set\ is\ empty,\ else\ false\r\n
+comment3.params=element
+comment3.target=boolean\ contains(java.lang.Object)
+comment3.text=\r\n\ Determines\ if\ the\ given\ element\ is\ present\ in\ the\ set.\r\n\ @param\ element\ the\ element\ to\ find\r\n\ @return\ true\ if\ the\ element\ is\ in\ the\ set,\ else\ false\r\n
+comment4.params=element
+comment4.target=void\ add(java.lang.Object)
+comment4.text=\r\n\ Adds\ the\ given\ element\ to\ the\ set,\ if\ it\ is\ not\ already\ present.\r\n\ @param\ element\ the\ element\ to\ add\r\n
+comment5.params=element
+comment5.target=java.lang.Object\ remove(java.lang.Object)
+comment5.text=\r\n\ Removes\ the\ given\ element\ from\ the\ set,\ if\ present.\ Throws\ an\ exception\ if\ the\ element\ is\ not\ in\ the\ set.\ \r\n\ @param\ element\ element\ to\ remove\r\n\ @return\ the\ removed\ element\r\n\ @throws\ NoSuchElementException\ if\ element\ is\ not\ contained\ in\ the\ set\r\n
+numComments=6

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=DoSomething
+comment0.text=\r\n\ Takes\ an\ array\ and\ reorders\ it\ (incorrectly)\ in\ an\ attempt\ to\ put\ elements\ in\ ascending\ order.\r\n\ @author\ mvail\r\n
+comment1.params=array
+comment1.target=void\ doSomething(int[])
+comment1.text=\r\n\ Fails\ to\ take\ an\ int[]\ and\ get\ it\ into\ ascending\ order.\r\n\ @param\ array\ ints\ that\ need\ to\ be\ ordered\ \r\n
+comment2.params=
+comment2.target=long\ getStatements()
+comment2.text=\r\n\ ADDED\ FOR\ DATA\ COLLECTION\r\n\ method\ added\ just\ to\ collect\ data\ about\ wrongSort()\r\n\ @return\ approximate\ statements\ executed\ on\ last\ call\ to\ order()\r\n
+numComments=3

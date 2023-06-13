@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Storage
+comment0.text=\ A\ container\ for\ storing\ elements\ of\ type\ T\ in\ one\ of\ several\r\n\ \ possible\ underlying\ data\ structures.\r\n\ \ Additional\ data\ structures\ (or\ variations\ on\ data\ structures)\r\n\ \ can\ be\ added\ by\ adding\ to\ the\ DataStructure\ enum\ values\ and\r\n\ \ adding\ corresponding\ cases\ to\ wrapper\ methods.\r\n\ \ This\ is\ an\ example\ of\ a\ design\ pattern\ known\ as\ a\ Bridge,\r\n\ \ that\ allows\ users\ to\ interact\ with\ potentially\ many\ different\r\n\ \ classes\ through\ a\ common\ interface.\r\n\ \ \r\n\ \ @author\ Nathaniel\ Weissinger\ CS221\r\n
+comment1.params=dataStructure
+comment1.target=Storage(Storage.DataStructure)
+comment1.text=\ Constructor\r\n\ @param\ dataStructure\ choice\ of\ DataStructures\ \r\n
+comment2.params=
+comment2.target=Storage\ getStackInstance()
+comment2.text=\ Alternative\ to\ using\ the\ constructor\ returns\r\n\ a\ Storage\ already\ configured\ to\ use\ a\ Stack\r\n\ @return\ instance\ of\ Storage\ configured\ to\ use\ a\ Stack\r\n
+comment3.params=
+comment3.target=Storage\ getQueueInstance()
+comment3.text=\ Alternative\ to\ using\ the\ constructor\ returns\r\n\ a\ Storage\ already\ configured\ to\ use\ a\ Queue\r\n\ @return\ instance\ of\ Storage\ configured\ to\ use\ a\ Queue\r\n
+comment4.params=element
+comment4.target=void\ store(java.lang.Object)
+comment4.text=\ Add\ element\ to\ underlying\ data\ structure\r\n\ @param\ element\ T\ to\ store\r\n
+comment5.params=
+comment5.target=java.lang.Object\ retrieve()
+comment5.text=\ Remove\ and\ return\ the\ next\ T\ from\ storage\r\n\ @return\ next\ T\ from\ storage\r\n
+comment6.params=
+comment6.target=boolean\ isEmpty()
+comment6.text=@return\ true\ if\ store\ is\ empty,\ else\ false
+comment7.params=
+comment7.target=int\ size()
+comment7.text=@return\ size\ of\ store
+numComments=8

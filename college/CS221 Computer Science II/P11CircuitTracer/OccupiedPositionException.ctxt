@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=OccupiedPositionException
+comment0.text=\ \r\n\ Thrown\ when\ an\ attempt\ is\ made\ to\ add\ a\ trace\ to\ an\ occupied\ position\ in\ a\ CircuitBoard\r\n\ @author\ mvail\r\n
+comment1.params=msg
+comment1.target=OccupiedPositionException(java.lang.String)
+numComments=2

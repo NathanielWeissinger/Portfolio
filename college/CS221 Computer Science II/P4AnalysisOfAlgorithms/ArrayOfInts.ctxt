@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=ArrayOfInts
+comment0.text=\r\n\ Contains\ utility\ methods\ for\ generating\ int\ arrays\ of\ given\ sizes.\r\n\ @author\ mvail\r\n
+comment1.params=size
+comment1.target=int[]\ randomizedArray(int)
+comment1.text=\r\n\ Returns\ a\ randomized\ array\ containing\ ints\ from\ 1\ to\ size.\r\n\ @param\ size\ number\ of\ elements\ in\ returned\ array\r\n\ @return\ randomized\ array\ of\ ints\ from\ 1\ to\ size\r\n
+comment2.params=size\ repetitions
+comment2.target=int[]\ randomizedArrayWithDuplicates(int,\ int)
+comment2.text=\r\n\ Returns\ a\ randomized\ array\ containing\ ints\ from\ 1\ to\ size/repetitions.\r\n\ @param\ size\ number\ of\ elements\ in\ returned\ array\r\n\ @param\ repetitions\ duplication\ rate\:\ e.g.\ if\ 2,\ expect\ minimum\ 2\ of\ each\ value\ in\ the\ array\ (may\ be\ 3\ of\ some)\r\n\ @return\ randomized\ array\ of\ ints\ from\ 1\ to\ size/repetitions\r\n
+comment3.params=size
+comment3.target=int[]\ ascendingArray(int)
+comment3.text=\r\n\ Returns\ an\ array\ of\ consecutive\ ascending-order\ ints\ from\ 1\ to\ size.\r\n\ @param\ size\ number\ of\ elements\ in\ returned\ array\r\n\ @return\ array\ of\ consecutive\ ints\ from\ 1\ to\ size\ \r\n
+comment4.params=size
+comment4.target=int[]\ descendingArray(int)
+comment4.text=\r\n\ Returns\ an\ array\ of\ consecutive\ descending-order\ ints\ from\ size\ to\ 1.\r\n\ @param\ size\ number\ of\ elements\ in\ returned\ array\r\n\ @return\ array\ of\ consecutive\ ints\ from\ 1\ to\ size\ \r\n
+comment5.params=array
+comment5.target=int[]\ copyArray(int[])
+comment5.text=\r\n\ Return\ a\ copy\ of\ array.\r\n\ @param\ array\ original\ array\r\n\ @return\ copy\ of\ array\r\n
+comment6.params=array\ outfile
+comment6.target=void\ arrayToFile(int[],\ java.lang.String)
+comment6.text=\r\n\ Writes\ an\ int[]\ to\ a\ plain-text\ file\ with\ ints\ separated\ by\ spaces.\r\n\ Useful\ for\ creating\ input\ files\ for\ repeatable\ tests.\ \r\n\ @param\ array\ array\ to\ write\ to\ outfile\r\n\ @param\ outfile\ name\ of\ file\ where\ array\ should\ be\ written\r\n
+comment7.params=infile
+comment7.target=int[]\ arrayFromFile(java.lang.String)
+comment7.text=\r\n\ Read\ ints\ from\ a\ file\ and\ return\ them\ in\ an\ int[]\r\n\ @param\ infile\ name\ of\ file\ containing\ ints\ separated\ by\ whitespace\r\n\ @return\ array\ of\ ints\ loaded\ from\ infile\r\n\ @throws\ FileNotFoundException\ if\ infile\ cannot\ be\ opened\ or\ read\r\n\ @throws\ InputMismatchException\ if\ infile\ contains\ anything\ other\ than\ ints\r\n
+numComments=8

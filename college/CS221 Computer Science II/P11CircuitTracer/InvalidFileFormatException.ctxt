@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=InvalidFileFormatException
+comment0.text=\r\n\ Indicates\ a\ file\ formatting\ exception.\r\n\ @author\ mvail\r\n
+comment1.params=msg
+comment1.target=InvalidFileFormatException(java.lang.String)
+numComments=2

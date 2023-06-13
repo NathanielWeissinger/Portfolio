@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Sort
+comment0.text=\r\n\ Class\ for\ sorting\ lists\ that\ implement\ the\ IndexedUnsortedList\ interface,\r\n\ using\ ordering\ defined\ by\ class\ of\ objects\ in\ list\ or\ a\ Comparator.\r\n\ As\ written\ uses\ Mergesort\ algorithm.\r\n\r\n\ @author\ Nathaniel\ Weissinger\ CS221\r\n
+comment1.params=
+comment1.target=IndexedUnsortedList\ newList()
+comment1.text=\r\n\ Returns\ a\ new\ list\ that\ implements\ the\ IndexedUnsortedList\ interface.\ \r\n\ \r\n\ @return\ a\ new\ list\ that\ implements\ the\ IndexedUnsortedList\ interface\r\n
+comment2.params=list
+comment2.target=void\ sort(IndexedUnsortedList)
+comment2.text=\r\n\ Sorts\ a\ list\ that\ implements\ the\ IndexedUnsortedList\ interface\ \r\n\ using\ compareTo()\ method\ defined\ by\ class\ of\ objects\ in\ list.\r\n\ DO\ NOT\ MODIFY\ THIS\ METHOD\r\n\ \r\n\ @param\ <T>\r\n\ \ \ \ \ \ \ \ \ \ \ \ The\ class\ of\ elements\ in\ the\ list,\ must\ extend\ Comparable\r\n\ @param\ list\r\n\ \ \ \ \ \ \ \ \ \ \ \ The\ list\ to\ be\ sorted,\ implements\ IndexedUnsortedList\ interface\ \r\n\ @see\ IndexedUnsortedList\ \r\n
+comment3.params=list\ c
+comment3.target=void\ sort(IndexedUnsortedList,\ java.util.Comparator)
+comment3.text=\r\n\ Sorts\ a\ list\ that\ implements\ the\ IndexedUnsortedList\ interface\ \r\n\ using\ given\ Comparator.\r\n\ DO\ NOT\ MODIFY\ THIS\ METHOD\r\n\ \r\n\ @param\ <T>\r\n\ \ \ \ \ \ \ \ \ \ \ \ The\ class\ of\ elements\ in\ the\ list\r\n\ @param\ list\r\n\ \ \ \ \ \ \ \ \ \ \ \ The\ list\ to\ be\ sorted,\ implements\ IndexedUnsortedList\ interface\ \r\n\ @param\ c\r\n\ \ \ \ \ \ \ \ \ \ \ \ The\ Comparator\ used\r\n\ @see\ IndexedUnsortedList\ \r\n
+comment4.params=list
+comment4.target=void\ mergesort(IndexedUnsortedList)
+comment4.text=\r\n\ Mergesort\ algorithm\ to\ sort\ objects\ in\ a\ list\ \r\n\ that\ implements\ the\ IndexedUnsortedList\ interface,\ \r\n\ using\ compareTo()\ method\ defined\ by\ class\ of\ objects\ in\ list.\r\n\ DO\ NOT\ MODIFY\ THIS\ METHOD\ SIGNATURE\r\n\ \r\n\ @param\ <T>\r\n\ \ \ \ \ \ \ \ \ \ \ \ The\ class\ of\ elements\ in\ the\ list,\ must\ extend\ Comparable\r\n\ @param\ list\r\n\ \ \ \ \ \ \ \ \ \ \ \ The\ list\ to\ be\ sorted,\ implements\ IndexedUnsortedList\ interface\ \r\n
+comment5.params=list\ c
+comment5.target=void\ mergesort(IndexedUnsortedList,\ java.util.Comparator)
+comment5.text=\r\n\ Mergesort\ algorithm\ to\ sort\ objects\ in\ a\ list\ \r\n\ that\ implements\ the\ IndexedUnsortedList\ interface,\r\n\ using\ the\ given\ Comparator.\r\n\ DO\ NOT\ MODIFY\ THIS\ METHOD\ SIGNATURE\r\n\ \r\n\ @param\ <T>\r\n\ \ \ \ \ \ \ \ \ \ \ \ The\ class\ of\ elements\ in\ the\ list\r\n\ @param\ list\r\n\ \ \ \ \ \ \ \ \ \ \ \ The\ list\ to\ be\ sorted,\ implements\ IndexedUnsortedList\ interface\ \r\n\ @param\ c\r\n\ \ \ \ \ \ \ \ \ \ \ \ The\ Comparator\ used\r\n
+numComments=6

@@ -1,0 +1,5 @@
+ERROR In Input File  0
+InvalidFileFormatException:  0
+	at CircuitBoard.<init>(CircuitBoard.java:124)
+	at CircuitTracer.<init>(CircuitTracer.java:99)
+	at CircuitTracer.main(CircuitTracer.java:27)

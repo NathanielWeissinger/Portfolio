@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=FormatChecker
+comment0.text=\r\n\ @author\ Nathaniel\ Weissinger\r\n\ This\ class\ checks\ for\ the\ errors\ in\ formatting\ from\ specified\ input\r\n\ files,\ and\ returns\ whether\ they\ are\ valid\ or\ not.\r\n\ The\ first\ row\ of\ the\ file\ should\ have\ the\ matrix\ dimensions\:\ first\r\n\ digit\ is\ the\ row\ size,\ second\ digit\ is\ the\ column\ size,\ separated\ by\r\n\ a\ space.\ Both\ digits\ are\ nonnegative\ integers.\r\n\ \r\n\ The\ rest\ of\ the\ file\ is\ a\ matrix\ with\ the\ correct\ rows/columns\ specified\r\n\ by\ the\ first\ two\ matrix\ dimension\ identifiers.\ If\ the\ row/column\r\n\ sizes\ are\ incorrect\ after\ initial\ specification,\ then\ the\ FormatChecker\r\n\ returns\ an\ INVALID\ error.\ Otherwise,\ the\ program\ returns\ VALID.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

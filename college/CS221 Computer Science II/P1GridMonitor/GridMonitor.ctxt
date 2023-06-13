@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=GridMonitor
+comment1.params=filename
+comment1.target=GridMonitor(java.lang.String)
+comment1.text=\r\n\ Constructor\ method,\ which\ scans\ the\ specified\ file\ and\ saves\ the\ data\ into\ a\ 2D\ matrix\r\n\ \r\n\ @constructor\ method\r\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=\r\n\ Displays\ all\ results\ of\ every\ method\ sequentially.\r\n\ \r\n\ @displays\ results\r\n
+comment3.params=
+comment3.target=double[][]\ getBaseGrid()
+comment3.text=\r\n\ Returns\ the\ original\ base\ grid,\ as\ read\ from\ file.\r\n\ \r\n\ @return\ base\ grid\r\n
+comment4.params=
+comment4.target=double[][]\ getSurroundingSumGrid()
+comment4.text=\r\n\ Returns\ a\ grid\ with\ the\ same\ dimensions\ as\ the\ base\ grid,\ but\ each\ element\r\n\ is\ the\ sum\ of\ the\ 4\ surrounding\ base\ elements.\ For\ elements\ on\ a\ grid\ border,\r\n\ the\ base\ element's\ own\ value\ is\ used\ when\ looking\ out\ of\ bounds,\ as\ if\ there\r\n\ is\ a\ mirror\ surrounding\ the\ grid.\ This\ method\ is\ exposed\ for\ testing.\r\n\ \r\n\ @return\ grid\ containing\ the\ sum\ of\ adjacent\ positions\r\n
+comment5.params=
+comment5.target=double[][]\ getSurroundingAvgGrid()
+comment5.text=\r\n\ Returns\ a\ grid\ with\ the\ same\ dimensions\ as\ the\ base\ grid,\ but\ each\ element\r\n\ is\ the\ average\ of\ the\ 4\ surrounding\ base\ elements.\ This\ method\ is\ exposed\ for\ \r\n\ testing.\r\n\ \r\n\ @return\ grid\ containing\ the\ average\ of\ adjacent\ positions\r\n
+comment6.params=
+comment6.target=double[][]\ getDeltaGrid()
+comment6.text=\r\n\ Returns\ a\ grid\ with\ the\ same\ dimensions\ as\ the\ base\ grid,\ but\ each\ element\ \r\n\ is\ the\ maximum\ delta\ from\ the\ average.\ For\ example,\ if\ the\ surrounding\r\n\ average\ at\ some\ coordinate\ is\ 2.0\ and\ the\ maximum\ delta\ is\ 50%\ of\ the\ average,\r\n\ the\ delta\ value\ at\ the\ same\ coordinate\ in\ this\ grid\ will\ be\ 1.0.\ This\ method\ is\r\n\ exposed\ for\ testing.\r\n\ \r\n\ @return\ grid\ containing\ the\ maximum\ delta\ from\ average\ of\ adjacent\ positions\r\n
+comment7.params=
+comment7.target=boolean[][]\ getDangerGrid()
+comment7.text=\r\n\ Returns\ a\ grid\ with\ the\ same\ dimensions\ as\ the\ base\ grid,\ but\ each\ element\r\n\ is\ a\ boolean\ value\ indicating\ if\ the\ cell\ is\ at\ risk.\ For\ example,\ if\ the\ cell\r\n\ at\ a\ coordinate\ is\ less\ than\ the\ surrounding\ average\ minus\ its\ maximum\ delta\ or\r\n\ greater\ than\ the\ surrounding\ average\ plus\ its\ maximum\ delta,\ the\ corresponding\r\n\ coordinate\ in\ this\ grid\ will\ be\ true.\ If\ the\ base\ cell\ value\ is\ within\ the\ safe\r\n\ range,\ however,\ the\ corresponding\ value\ in\ this\ grid\ will\ be\ false.\r\n\ \r\n\ @return\ grid\ containing\ boolean\ values\ indicating\ whether\ the\ cell\ at\ this\r\n\ location\ is\ in\ danger\ of\ exploding\r\n
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9

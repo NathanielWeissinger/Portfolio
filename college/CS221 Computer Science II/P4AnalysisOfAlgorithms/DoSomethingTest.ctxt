@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=DoSomethingTest
+comment0.text=\r\n\ Test\ DoSomething\ -\ count\ number\ of\ statements\ to\ doSomething()\ to\ various\ arrays.\r\n\ @author\ mvail\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Get\ an\ array\ of\ specified\ size\ and\ pass\ it\ to\ doSomething.doSomething().\r\n\ Report\ the\ results.\r\n\ @param\ args\ either\ size\ of\ a\ new\ array,\ or\ a\ file\ containing\ ints\r\n
+numComments=2

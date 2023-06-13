@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=MethodsToAnalyze
+comment0.text=\r\n\ A\ collection\ of\ methods\ that\ work\ with\ arrays\ of\ ints.\r\n\ \r\n\ @author\ mvail\r\n
+comment1.params=array\ value
+comment1.target=int\ find(int[],\ int)
+comment1.text=\r\n\ Return\ index\ where\ value\ is\ found\ in\ array\ or\ -1\ if\ not\ found.\r\n\ @param\ array\ ints\ where\ value\ may\ be\ found\r\n\ @param\ value\ int\ that\ may\ be\ in\ array\r\n\ @return\ index\ where\ value\ is\ found\ or\ -1\ if\ not\ found\r\n
+comment2.params=array\ oldValue\ newValue
+comment2.target=void\ replaceAll(int[],\ int,\ int)
+comment2.text=\r\n\ Replace\ all\ occurrences\ of\ oldValue\ with\ newValue\ in\ array.\r\n\ @param\ array\ ints\ where\ oldValue\ may\ be\ found\r\n\ @param\ oldValue\ value\ to\ replace\r\n\ @param\ newValue\ new\ value\r\n
+comment3.params=array
+comment3.target=void\ sortIt(int[])
+comment3.text=\r\n\ Take\ an\ int[]\ and\ reorganize\ it\ so\ they\ are\ in\ ascending\ order.\r\n\ @param\ array\ ints\ that\ need\ to\ be\ ordered\ \r\n
+numComments=4

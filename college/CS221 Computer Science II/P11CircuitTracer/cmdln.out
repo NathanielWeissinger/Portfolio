@@ -1,0 +1,7 @@
+Enter 3 String command arguments, each with quotations and separated by commas.
+
+The first argument will be either -s or -q, which defines the underlying 
+	search state storage structure as either a stack or a queue.
+The second argument will be either -c or -g, which specifies 
+	whether the output will be through the console or the GUI.
+The third argument will be the name of the file, including its extension.
