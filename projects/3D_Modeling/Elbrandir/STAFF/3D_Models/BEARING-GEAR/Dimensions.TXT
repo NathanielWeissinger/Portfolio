@@ -1,0 +1,43 @@
+Cage thickness: 2.1168mm
+BB diameter: 6.35mm
+Sphere diameter: 6.65336mm (tolerance: 0.3mm)
+Height: 8.4772mm
+
+STAFF CIRCUMFERENCE
+Upper thinnest part (right below curve fork): exactly 12cm
+Upper bump part: also 12, but elliptical (probably 14.5cm)
+Very bottom: 12.5cm
+15cm above bottom: 13cm
+Direct middle: 12.2cm
+Widest part of bottom: 13.2cm elliptical (probably 14-14.5cm)
+
+3D PRINTED STAFF CIRCUMFERENCES:
+Upper thinnest part (right below curve fork and right above bump):
+	exactly 12cm, but it's a very small height (4mm max)
+Upper bump part: 13.5cm
+Very bottom: 12cm
+2cm above bottom: 12.5cm
+About 15cm above bottom: 13cm
+Direct middle at widest part: 13.5cm just barely, probably is more
+Top part of vein: 12cm (maybe a bit less), gradually grows in middle
+(14 and 14.5cm test circles were too big throughout staff length)
+
+
+
+TEST CIRCLES
+
+12cm circumference = 38.2mm diameter
+12.5cm circumference = 39.7887mm diameter
+13cm circumference = 41.38mm diameter
+13.5cm circumference = 42.97mm diameter
+14cm circumference = 44.5633mm diameter
+14.5cm circumference = 46.155mm diameter
+
+THE BEARING EDITS ARE FOR THE 13.5MM CIRCUMFERENCE
+
+ISSUES WITH FIRST PRINT:
+Inner indent was scaled down, meaning the bearing now doesn't fit.
+RACECUT works perfectly, just the inner and outer must be altered
+
+FINAL:
+Works perfectly. Needs to now be translated into Fusion360 to add gears
